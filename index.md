@@ -3,8 +3,6 @@ layout: default
 title: Imam's Page
 ---
 
-[fa fa-arrow-right](/blog/)
-
 > Hallo .. This is first page as Lorem Page.
 
 ## Lorem
