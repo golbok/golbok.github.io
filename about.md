@@ -30,9 +30,3 @@ I really do expert at "How to ..." via Search Engine.
 - <i class="fa fa-twitter"></i>[ Twitter](https://twitter.com/__imamm)
 - <i class="fa fa-instagram"></i>[ Instagram](https://instagram.com/imamsiswandi)
 - <i class="icon-goodreads default-text"></i>[ Goodreads](https://www.goodreads.com/user/show/68293724-imam)
-
-## Goodreads:
-
-(Currently reading)
-
-{% include goodreads.html %}

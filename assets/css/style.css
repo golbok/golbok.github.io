@@ -1,10 +1,5 @@
 
-@import "syntax";
-@import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700');
-html{
-
-}
 body{
 padding-top: 70px;
 font: 14px/1.5 'PT Serif', serif, Arial;
