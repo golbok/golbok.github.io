@@ -1,0 +1,3 @@
+Sitemap: https://golbok.github.io//sitemap.xml
+User-agent: *
+Disallow: /
