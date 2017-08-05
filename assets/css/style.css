@@ -1,0 +1,53 @@
+
+@import "syntax";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700');
+html{
+
+}
+body{
+padding-top: 70px;
+font: 14px/1.5 'PT Serif', serif, Arial;
+margin: 0 auto;
+}
+p,h1,h2,h3,h4,h5,h6{
+	margin: 0 0 20px;
+}
+img{
+	max-width: 640px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.gread-float{
+	margin-bottom: 10px;
+	clear: both;
+	img{
+		width: 100px;
+		float: left; 
+		padding-right: 20px
+	}
+}
+.profile-picture{
+		height: 100px;
+        width: 100px;
+        position: relative;
+        margin: 20px 0 0 5px;
+        float: right;
+        border-radius: 50%;
+        p & {
+            padding: 0;
+            margin: 0;
+        }
+}
+footer{
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #aaa;
+	position: relative;
+	display: block;
+	padding: 40px;
+	p{
+		text-align: center;
+	}
+}
