@@ -8,11 +8,20 @@ margin: 0 auto;
 p,h1,h2,h3,h4,h5,h6{
 	margin: 0 0 20px;
 }
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+blockquote{
+	font-style: italic;
+}
 img{
 	max-width: 640px;
 	width: 100%;
 	display: block;
 	margin: 0 auto;
+}
+.date-archives-post{
+	color: #595959;
 }
 .gread-float{
 	margin-bottom: 10px;

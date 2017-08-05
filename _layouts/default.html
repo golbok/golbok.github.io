@@ -1,14 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="EN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-        <title>{{ site.title }} | {{ page.title }}</title>
+        <meta name="robots" content="noindex, nofollow">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      
+      <title>{{ site.title }} | {{ page.title }}</title>
 
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="stylesheet" href="/assets/css/syntax.css">
         <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+
+        {% feed_meta %}
+        
+        <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 
     </head>
     <body>
@@ -17,21 +24,25 @@
 <div class="row">
 <div class="col-md-2"></div>
 <div class="col-md-8">
-    {{ content }}
+{{ content }}
 </div>
 <div class="col-md-2"></div>
 </div>
 <div class="row">
 <div class="col-md-2"></div>
   <div class="col-md-8">
-   <footer>
-  <p>&copy; Imam 2017.</p>
+{% if site.footer %}
+ <footer>
+  <p>&copy; 2017 - Imam.</p>
 </footer> 
+{% endif %}
   </div>
   <div class="col-md-2"></div>
 </div>
-</div>
+</div><!--End Container-->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/modernizr-custom.js"></script>
+<script id="dsq-count-scr" src="//golbok-github-io.disqus.com/count.js" async></script>
     </body>
 </html>

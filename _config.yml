@@ -8,8 +8,8 @@ url: "https://golbok.github.io" # the base hostname & protocol for your site, e.
 
 permalink: /:categories/:title/
 excerpt_separator: "\n\n"
-
-paginate: 5
+footer: true
+paginate: 3
 paginate_path: "/blog/page:num"
 
 # Build settings
