@@ -20,6 +20,22 @@ img{
 	display: block;
 	margin: 0 auto;
 }
+.post p{
+	font-size: 105%;
+}
+#block-q{
+	border:none;
+}
+/*#bs-example-navbar-collapse-1 a{
+	-webkit-transition: background-color 0.5s ease-out;
+       -moz-transition: background-color 0.5s ease-out;
+         -o-transition: background-color 0.5s ease-out;
+            transition: background-color 0.5s ease-out;
+}*/
+#bs-example-navbar-collapse-1 a:hover{
+	background-color: rgb(232, 232, 232);
+	transition: .6s ease-out;
+}
 .date-archives-post{
 	color: #595959;
 }
