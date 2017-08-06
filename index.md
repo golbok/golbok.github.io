@@ -2,7 +2,6 @@
 layout: default
 title: Imam's Page
 ---
-
 <div class="panel panel-default">
 	<div class="panel-heading"><strong>Knowledge</strong></div>
 	<div class="panel-body">
