@@ -3,12 +3,10 @@ layout: default
 title: Blog
 ---
 {% for post in paginator.posts %}
-<div class="panel panel-primary">
+<div class="panel panel-primary" id="post-p">
   <div class="panel-body">
-    <div class="page-header">
     <h3 class="media-heading"><a class="text-dblue" href="{{ post.url }}"><i class="fa fa-book"></i> {{ post.title }}</a></h3>
-    <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
+    <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><hr>
     {{ post.excerpt }}{{ post.content | strip_html | truncatewords: 50 }}
     {% capture content_words %} 
       {{ post.content | number_of_words }} 
