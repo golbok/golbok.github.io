@@ -10,6 +10,7 @@ tags: [jekyll, blog]
 ## Jekyll Static Site Generator
 
 <img src="https://jekyllrb.com/img/octojekyll.png" alt="jekyll awesome" class="img-small" />
+<center class="caption"><small>jekyllrb.com</small></center>
 
 Dari beberapa platform untuk membangun website/blog seperti menggunakan wordpress/blogspot/tumblr dkk, namun cuma di jekyll yang lumayan serius.
 

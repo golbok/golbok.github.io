@@ -6,7 +6,7 @@ categories: post blog
 comments: true
 tags: [markup, schema.org]
 ---
-![schema.org google](/assets/img/schema/schema.org.png)
+![schema.org google](/assets/img/schema/schema.org.png)<center class="caption"><small>schema.org</small></center>
 
 ## Mengenal Schema.org
 

@@ -7,7 +7,7 @@ tags: [gulp, front-end-developer]
 comments: true
 ---
 
-![Gulp Awesome](/assets/img/gulp/gulpjs-cover.png)
+![Gulp Awesome](/assets/img/gulp/gulpjs-cover.png)<center><small class="caption">gulpjs.com</small></center>
 
 ### Gulp Tool
 

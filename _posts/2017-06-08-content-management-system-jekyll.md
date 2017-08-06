@@ -12,6 +12,7 @@ comments: true
 Membangun website menggunakan jekyll memang agak rumit awalnya menggunakan text-editor untuk mengatur komponen didalamnya, untuk lebih mudah mengatur isi website bisa mudah dengan bantuan siteleaf
 
 ![Siteleaf](/assets/img/sl/11.png)
+<center class="caption"><small>siteleaf.com</small></center>
 
 [Siteleaf](https://www.siteleaf.com/) merupakan *Content Management System* yang didesain untuk kebutuhan membangun website.
 
@@ -25,31 +26,31 @@ Pada awal terdapat tombol <strong class="primary"> <a href="https://manage.sitel
 1. Untuk pendaftaran bisa menggunakan akun GitHub
 2. atau dengan membuat akun di siteleaf
 
-![Siteleaf1](/assets/img/sl/1.png)
+![Siteleaf1](/assets/img/sl/1.png)<center class="caption"><small>siteleaf.com</small></center>
 
 <strong>Contoh integrasi dengan akun GitHub</strong>
 
-![Siteleaf2](/assets/img/sl/2.png)
+![Siteleaf2](/assets/img/sl/2.png)<center class="caption"><small>siteleaf.com</small></center>
 
 Kemudian, buat **TITLE** situs, dan **Domain**:
 
-![Siteleaf3](/assets/img/sl/3.png)
+![Siteleaf3](/assets/img/sl/3.png)<center class="caption"><small>siteleaf.com</small></center>
 
 Upload file & sesuaikan direktory dari website Jekyll yang sudah dibuat:
 
-![Siteleaf6](/assets/img/sl/6.png)
+![Siteleaf6](/assets/img/sl/6.png)<center class="caption"><small>siteleaf.com</small></center>
 
 Kemudian Generate View dikanan pojok atas,
 
 ### Posting
 
-![Siteleaf10](/assets/img/sl/10.png)
+![Siteleaf10](/assets/img/sl/10.png)<center class="caption"><small>siteleaf.com</small></center>
 
 Klik pada tombol **Post**
 
 Pada tahapan ini kita hanya tinggal menambahkan post sesuai dengan menu yang sudah tersedia, seperti CMS pada umumnya, ada fomr untuk menulis artikel, ***Tags, Categories, Date, Dan Layouts*** yang sudah disesuaikan dengan desain layouts yang kita buat.
 
-![Siteleaf9](/assets/img/sl/9.png)
+![Siteleaf9](/assets/img/sl/9.png)<center class="caption"><small>siteleaf.com</small></center>
 
 ## Contoh Hasil Generate View:
 
