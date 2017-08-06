@@ -212,13 +212,13 @@ ada dua gulp method pada contoh diatas, `gulp.src` dan `gulp.dest`
 
 Masih banyak lagi `package` yang dapat dimanfaatkan menggunakan [Gulp] seperti *text css preprocessing*, *globbing*, dan masih banyak lagi.
 
-**Download [Learn gulp sample] PDF**
+### Contoh menggunakan gulp
+
+![gulp](/assets/img/gulp/gulp.png)
 
 *ref: [Npm], [Gulp], [Node.js], [Css trick]*
 
 
-
-[Learn gulp sample]:https://drive.google.com/open?id=0B-_Lb7xX2HEOMHpGYjMwU2NZUk0
 [Css trick]:https://css-tricks.com/
 [Npm]:https://www.npmjs.com/
 [Npm Permission]:https://www.npmjs.com/

@@ -1,17 +1,28 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var minify = require("gulp-clean-css");
+var uglify = require("gulp-uglify");
+var autoprefixer = require('gulp-autoprefixer');
 var concat = require("gulp-concat");
 
 // compile all sass
 gulp.task('sass', function(){
-	return gulp.src('_sass/main.scss')
+	return gulp.src('./dev/sass/main.scss')
 				.pipe(sass({
-					includePaths: ['./assets/css'],
+					includePaths: ['./assets/css/'],
 					outputStyle: 'expanded'
 				}))
-
-				.pipe(gulp.dest('./assets/css'))
+				.pipe(autoprefixer({
+            		browsers: ['last 2 versions'],
+            	cascade: false
+        		}))
 				.pipe(minify())
-				.pipe(gulp.dest('./assets/css'));
+				.pipe(gulp.dest('./assets/css/'));
 });
+// uglify JS files
+gulp.task('uglify', function() {
+    gulp.src('./dev/js/*.js')
+      .pipe(uglify())
+      .pipe(gulp.dest('./assets/js/'));
+});
+
