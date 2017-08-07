@@ -2,12 +2,6 @@
 layout: default
 title: ABOUT
 ---
-<!-- # This H1 Line
-## This h2 line
-### This h3 line
-#### This h4 line
-##### This h5 line
-###### This h6 line -->
 ### About
 
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
