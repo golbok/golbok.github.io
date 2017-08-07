@@ -5,6 +5,8 @@ var uglify = require("gulp-uglify");
 var autoprefixer = require('gulp-autoprefixer');
 var concat = require("gulp-concat");
 
+gulp.task('default',['sass', 'uglify']);
+
 // compile all sass
 gulp.task('sass', function(){
 	return gulp.src('./dev/sass/main.scss')
@@ -13,8 +15,8 @@ gulp.task('sass', function(){
 					outputStyle: 'expanded'
 				}))
 				.pipe(autoprefixer({
-            		browsers: ['last 2 versions'],
-            	cascade: false
+					browsers: ['last 2 versions'],
+					cascade: false
         		}))
 				.pipe(minify())
 				.pipe(gulp.dest('./assets/css/'));

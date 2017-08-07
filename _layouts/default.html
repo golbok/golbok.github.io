@@ -17,31 +17,25 @@
         <link rel="canonical" href="{{ canonical }}">
 
     </head>
-    <body>
+<body>
 {% include nav.html %}
 <div class="container">
-<div class="row">
-<div class="col-md-2"></div>
-<div class="col-md-8">
-{{ content }}
-</div>
-<div class="col-md-2"></div>
-</div>
-<div class="row">
-<div class="col-md-2"></div>
-  <div class="col-md-8">
-{% if site.footer %}
- <footer>
-  <p>&copy; 2017 - Imam.</p>
-</footer> 
-{% endif %}
+  <div class="row">
+    <div class="col-md-2"></div>
+      <div class="col-md-8 content">
+      {{ content }}
+      {% if site.footer %}
+      <footer>
+        <p>&copy; 2017 - Imam.</p>
+      </footer> 
+    {% endif %}
+    </div>
+    <div class="col-md-2"></div>
   </div>
-  <div class="col-md-2"></div>
-</div>
 </div><!--End Container-->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/modernizr-custom.js"></script>
 <script id="dsq-count-scr" src="//golbok-github-io.disqus.com/count.js" async></script>
-    </body>
+</body>
 </html>
