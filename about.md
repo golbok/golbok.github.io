@@ -6,7 +6,7 @@ title: ABOUT
 
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
-Hi! I am a senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> majors *(present).*
+Hi! I am a senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> majors *(<mark>present</mark>).*
 This is my base Jekyll theme. 
 
 You can find out more info about customizing your Jekyll, Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog post has been stored in blog [archives &#8599;]({{ site.url }}/archives/)

@@ -3,8 +3,8 @@ email: imamsiswandii at gmail do com
 description: >
   awesome description for my site.
 baseurl: ""
-url: "https://immsswd.github.io/"
-canonical-url: "https://immsswd.github.io/"
+url: "https://immsswd.github.io"
+canonical-url: "https://immsswd.github.io"
 permalink: /:categories/:title/
 excerpt_separator: "\n\n"
 footer: true

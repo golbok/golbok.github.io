@@ -26,13 +26,19 @@
       {{ content }}
       {% if site.footer %}
       <footer>
-        <p>&copy; 2017 - Imam.</p>
+        <p>&copy; {{ site.time | date: "%Y" }} - Imam.</p>
       </footer> 
     {% endif %}
     </div>
     <div class="col-md-2"></div>
   </div>
 </div><!--End Container-->
+<script>
+  $("a[href='#top']").click(function() {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+</script>
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/modernizr-custom.js"></script>
