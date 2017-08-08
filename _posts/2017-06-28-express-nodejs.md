@@ -7,12 +7,20 @@ tags: [node, express]
 comments: true
 ---
 # Express
-Express framework aplikasi web dari [node.js](https://nodejs.org/en/) minimal dan lebih flexible.
+Express framework aplikasi web yang dikembangkan oleh **TJ Holowaychuk**, dan dapat digunakan melalui [node.js](https://nodejs.org/en/), tampilan yang minimal dan lebih flexible.
 
 ![express nodejs](https://nodejs.org/static/images/logo.svg)
 <center class="caption"><small>node.js</small></center>
 
 Sudah disediakan semua fitur baik itu untuk aplikasi web dan mobile.
+
+Penggunaan database bisa menggunakan **MongoDB and Mongoose** open-source, salah satunya **Mongoose** adalah client API untuk node.js.
+
+<div class="alert alert-warning" role="alert">
+
+  Untuk menggunakan Express sebelumnya harus mempunyai node.js yang sudah terinstall yang nantinya digunakan `npm` untuk instalasi express, <a class="alert-link" href="http://nodejs.org/download/" target="_blank">Download Node.js</a>
+
+</div>
 
 ## Install Express App
 
@@ -66,6 +74,14 @@ $ cat package.json
 
 ```
 
+### Install nodemon
+
+nodemon untuk melihat log server yang sedang berjalan
+
+``` bash
+$ npm install -g nodemon
+```
+
 ## Struktur folder
 
 berikut struktur folder yang telah dibuat
@@ -91,20 +107,27 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 });
 
-app.listen(8080, function () {
-  console.log('Contoh Aplikasi di port 8080!, buka browser localhost:8080')
+app.listen(8080,['127.0.0.1'], function () {
+  console.log('open http://localhost:8080')
 });
 ```
-file tersebut menjelaskan, kita menggunakan paket dari `express` yang mana aplikasi `express` kita buat konstan dengan `app`.
+file tersebut menjelaskan, kita menggunakan paket dari `express` yang mana aplikasi `express` kita buat, variable konstan dengan `app`.
 
 routing index (default) yang dibuat nantinya mengirimkan kata 'Hello World!' dan dijalankan di port: 8080
 
 Jalankan aplikasi:
 
+
+bisa dijalankan dengan `node app.js` atau `nodemon app.js`
+
 ``` bash
-$ node app.js
-Contoh Aplikasi di port 8080!, buka browser localhost:8080
-|
+$ nodemon app.js
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+open htpp://localhost:8080
+...
 ```
 buka port http://localhost:8080 di browser:
 
