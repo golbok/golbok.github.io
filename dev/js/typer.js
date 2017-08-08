@@ -1,4 +1,4 @@
-var str = "<p>It is not the knowledge which should come to you, it is you who should come to the knowledge.<br> - Imam Malik</p>",
+var str = "<p><h2>$ Hallo !</h2></p>",
     i = 0,
     isTag,
     text;
