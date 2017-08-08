@@ -3,7 +3,7 @@ layout: default
 title: BLOG
 ---
 {% for post in paginator.posts %}
-<div class="panel panel-primary" id="post-p">
+<div class="panel panel-default" id="post-p">
   <div class="panel-body">
     <h3 class="media-heading"><a class="text-dblue" href="{{ post.url }}"><i class="fa fa-book"></i> {{ post.title }}</a></h3>
     <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><hr>
