@@ -129,6 +129,16 @@ footer{
 		text-align: center;
 	}
 }
+@media screen and (max-width: 600px){
+	#home{
+		.terminal{
+			font-size: 12px;
+		}
+		p, code, pre{
+			font-size: 14px;
+		}
+	}
+}
 @media screen and (max-width: 480px){
 	body{
 		font-size: 170%;
