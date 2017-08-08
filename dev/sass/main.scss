@@ -5,9 +5,10 @@ body{
 padding-top: 80px;
 font: 15px/1.5 'PT Serif', serif, Arial;
 margin: 0 auto;
+overflow-wrap: break-word;
 }
 p,h1,h2,h3,h4,h5,h6{
-	margin: 0 0 18px;
+	margin: auto 0 18px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
@@ -15,6 +16,10 @@ h1,h2,h3,h4,h5,h6{
 }
 blockquote{
 	font-style: italic;
+}
+p{
+	text-align: left;
+	word-wrap: break-word;
 }
 h1 {
   font-size:28px;
@@ -52,10 +57,6 @@ img{
 	p{
 	font-size: 105%;
 	}
-}
-.post-p{
-	white-space: pre-wrap;
-	word-wrap: break-word;
 }
 #block-q{
 	border:none;
