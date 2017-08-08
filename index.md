@@ -7,7 +7,7 @@ title: HOME
 	<div class="panel-body">
 
 		<div class="language-ruby highlighter-rouge">
-		<pre class="highlight" id="code-home"><code><span class="rb" id="typed3"></span></code></pre>
+		<pre class="highlight" id="code-home"><code><strong class="text-primary">root#</strong> <span class="rb" id="typed3"></span></code></pre>
 		</div>
 
 	</div>
