@@ -26,7 +26,7 @@
       {{ content }}
       {% if site.footer %}
       <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} - Imam.</p>
+        <p>&copy; {{ site.time | date: "%Y" }} - {{ site.title }}.</p>
       </footer> 
     {% endif %}
     </div>
@@ -37,6 +37,7 @@
 
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/modernizr-custom.js"></script>
+<script id="dsq-count-scr" src="https://gh-pages-3.disqus.com/count.js" async></script>
 <script src="/assets/js/typer.js"></script>
 <script>
   $("a[href='#top']").click(function() {
@@ -44,6 +45,5 @@
             return false;
         });
 </script>
-<script id="dsq-count-scr" src="//golbok-github-io.disqus.com/count.js" async></script>
 </body>
 </html>

@@ -16,5 +16,5 @@ title: Archives
 {% endfor %}
 <br>
 <center>
-	<a href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
-</center>
+	<a class="btn btn-default btn-sm" href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
+</center><br>

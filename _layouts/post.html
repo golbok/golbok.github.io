@@ -9,10 +9,12 @@ layout: default
 <div class="post">
 	{{ content }}
 <hr>
+<p><a href="{{ site.url }}{{ page.url }}#disqus_thread">-</a></p>
 {% if page.comments %}
 	{% include disqus.html %}
 {% endif %}
 </div>
+<br>
 <center>
-	<a href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
+	<a class="btn btn-default btn-sm" href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
 </center><br>
