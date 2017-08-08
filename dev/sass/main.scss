@@ -50,11 +50,25 @@ img{
 	display: block;
 	margin: 0 auto;
 }
+.panel-default .panel-heading{
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #dfdfdf 100%);
+	background-image: linear-gradient(to bottom, #ffffff 0%, #dfdfdf 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfdf', GradientType=0);
+}
+.media-heading{
+	text-align: left;
+	word-wrap: break-word;
+}
 .terminal{
 	margin-left: 10px;
 	margin-bottom: -10px;
 	font-family: courier new, monospace;
-  	font-size: 16px;
+  	font-size: 14px;
+}
+#terminal{
+	font-size: 14px;
+	font-family: arial;
 }
 #code-home{
 	font-size: 16px;
@@ -132,7 +146,7 @@ footer{
 @media screen and (max-width: 600px){
 	#home{
 		.terminal{
-			font-size: 12px;
+			font-size: 14px;
 		}
 		p, code, pre{
 			font-size: 14px;
