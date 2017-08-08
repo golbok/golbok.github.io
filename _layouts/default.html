@@ -38,7 +38,16 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/modernizr-custom.js"></script>
 <script id="dsq-count-scr" src="https://gh-pages-3.disqus.com/count.js" async></script>
-<script src="/assets/js/typer.js"></script>
+<script src="/assets/js/typed.js"></script>
+<script>
+    var typed3 = new Typed('#typed3', {
+    strings: ['Home page said: <i>OH hai Hlao</i> tere', 'Home page said: ups', 'Home page said: <strong> Hi.. Hello there!</strong>'],
+    typeSpeed: 50,
+    backSpeed: 20,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+</script>
 <script>
   $("a[href='#top']").click(function() {
             $("html, body").animate({ scrollTop: 0 }, "slow");
