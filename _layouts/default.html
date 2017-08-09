@@ -45,6 +45,10 @@
 <script id="dsq-count-scr" src="https://gh-pages-3.disqus.com/count.js" async></script>
 <script src="/assets/js/typed.js"></script>
 <script>
+    $("a[href='#top']").click(function() {
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+  });
     var typed3 = new Typed('#typed3', {
     strings: ['<strong>Oh hai Hllao tehre..</strong>', '<strong>ups</strong>', '<strong> Hi.. Hello there!</strong>'],
     typeSpeed: 60,
