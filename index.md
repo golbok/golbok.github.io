@@ -4,7 +4,7 @@ title: HOME
 ---
 
 <div class="panel panel-default">
-	<div class="panel-heading" id="terminal"><center><strong> &mdash; bash</strong></center></div>
+	<div class="panel-heading" id="terminal"><center>&mdash; bash &mdash; 78x20</center></div>
 	<div class="panel-body" id="home">
 	<p class="terminal">
 		Last login: {{ site.time | date: "%-d %b,%Y" }}
