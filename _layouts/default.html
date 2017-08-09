@@ -24,15 +24,20 @@
     <div class="col-md-2"></div>
       <div class="col-md-8 content">
       {{ content }}
-      {% if site.footer %}
-      <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} - {{ site.title }}.</p>
-      </footer> 
-    {% endif %}
     </div>
     <div class="col-md-2"></div>
   </div>
+
 </div><!--End Container-->
+<div class="navbar-static-bottom">
+  {% if site.footer %}
+<footer>
+  <p>&copy; {{ site.time | date: "%Y" }} &mdash; {{ site.title }}.</p>
+</footer> 
+{% endif %}
+</div>
+
+
 <script src="/assets/js/jquery.min.js"></script>
 
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -47,12 +52,6 @@
     smartBackspace: true, // this is a default
     loop: true
   });
-</script>
-<script>
-  $("a[href='#top']").click(function() {
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-            return false;
-        });
 </script>
 </body>
 </html>

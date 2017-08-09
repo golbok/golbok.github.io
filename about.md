@@ -22,6 +22,6 @@ You can find out more info about customizing your Jekyll, Jekyll usage documenta
 - <i class="fa fa-google"></i>[ Goodreads](https://www.goodreads.com/user/show/68293724-imam)
 - <i class="fa fa-send"></i> [Send mail](mailto:{{ site.email }})
 
-### Currently Reading
+### Goodreads
 
 {% include goodreads.html %}

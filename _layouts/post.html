@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<br>
-<center>
-	<h1>{{ page.title }}</h1>
-</center>
-<hr>
+<div class="post">
+<div class="post-title-header">
+	
+	<h2>{{ page.title }}</h2>
+	<small>
+		{{ page.date | date_to_long_string }} &#9679; {{ site.title }}
+	</small>
+	
+</div>
 <div class="post">
 	{{ content }}
 <hr>
@@ -18,3 +22,4 @@ layout: default
 <center>
 	<a class="btn btn-default btn-sm" href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
 </center><br>
+</div>
