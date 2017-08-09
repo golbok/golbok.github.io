@@ -94,6 +94,9 @@ img{
 #block-q{
 	border:none;
 }
+.navbar-nav li:hover{
+	background: $dark-color;
+}
 /*#bs-example-navbar-collapse-1 a{
 	-webkit-transition: background-color 0.5s ease-out;
        -moz-transition: background-color 0.5s ease-out;
