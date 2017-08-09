@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HOME
+title: Home
 ---
 
 <div class="panel panel-default">
