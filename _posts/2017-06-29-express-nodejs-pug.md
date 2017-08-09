@@ -42,7 +42,7 @@ app.set('view engine', 'pug');
 
 app.set('views', './views');
 ```
-buat folder views di root kemudian buat file `fview.pug` jdai **./views/fview.pug**
+buat folder views di root kemudian buat file `fview.pug` jadi **./views/fview.pug**
 
 *fview.twig*
 
