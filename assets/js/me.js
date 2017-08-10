@@ -1,0 +1,1 @@
+$("a[href='#top']").click(function(){return $("html, body").animate({scrollTop:0},"slow"),!1});var typed3=new Typed("#typed3",{strings:["<strong>Oh hai Hllao tehre..</strong>","<strong>ups</strong>","<strong> Hi.. Hello there!</strong>"],typeSpeed:60,backSpeed:15,smartBackspace:!0,loop:!0});
