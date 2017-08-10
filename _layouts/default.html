@@ -10,7 +10,7 @@
       
       <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       
           {% if page.canonical-url == nil %}
             {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
           {% else %}
@@ -35,6 +35,7 @@
   {% if site.footer %}
 <footer>
   <p>&copy; {{ site.time | date: "%Y" }} &mdash; {{ site.title }}.</p>
+  {% include footer-social.html %}
 </footer> 
 {% endif %}
 </div>
