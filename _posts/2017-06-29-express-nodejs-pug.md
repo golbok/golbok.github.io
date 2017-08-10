@@ -166,7 +166,7 @@ html
 ```
 ### Include & Template menggunakan Bootstrap
 
-Jangan lupa untuk membuat routernya terlebih dahulu gunakan method set untuk menentukan folder **public** untuk meletakkan semua dari assets **bootstrap**:
+Jangan lupa untuk membuat routernya terlebih dahulu gunakan method **static** untuk menentukan folder **public**, bisa dengan menggunakan `__dirname + '/public'` atau hanya `'public'` saja gunanya untuk menentukan asset yang diambil dari assets **bootstrap**:
 
 ```js
 
@@ -177,7 +177,7 @@ app.get('/webku', function(req, res){
 });
 ```
 
-buat kontent `header.pug`, `content.pug` dan `footer.pug` didalama folder **views**:
+buat kontent `header.pug`, `content.pug` dan `footer.pug` didalama folder **./views**:
 
 - file `header.pug`
 
@@ -207,7 +207,7 @@ html
               input.form-control(placeholder="Username")
             div.form-group
               label Password
-              input.form-control(placeholder="Password")
+              input.form-control(type="password" placeholder="Password")
             div.form-group
               input(type='checkbox')
               p Benar
@@ -216,6 +216,9 @@ html
                 Login
         div.col-md-3
     include ./footer.pug
+    // scripts
+    script(src="js/jquery.min.js")
+    script(src="js/bootstrap.min.js")
 ```
 - file `footer.pug`
 
@@ -224,7 +227,7 @@ footer.footer.nav-fixed-bottom
   center
     p Hallo footer &copy; footer
 ```
-#### Tampilan:
+#### View:
 
 ![puglife](/assets/img/exp/vi.png)
 

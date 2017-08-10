@@ -95,7 +95,7 @@ berikut struktur folder yang telah dibuat
 └── package-lock.json
 
 ```
-## Testing "Hello World!"
+## URL Building, Testing "Hello World!"
 
 Didalam file `app.js`:
 
@@ -134,6 +134,9 @@ buka port http://localhost:8080 di browser:
 ![express hello world](/assets/img/exp/h.png)
 
 untuk lebih mudah dalam pembuatan aplikasi bisa dengan menggunakan *Express application generator*.
+
+## HTTP Methods
+Beberapa HTTP method yang diberikan dan digunakan digunakan ketika *client* melakukan *request* pada ExpressJS adalah **GET, POST, PUT** dan **DELETE**
 
 #### Ref:
 
