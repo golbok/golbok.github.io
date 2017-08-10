@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="EN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="robots" content="noindex, nofollow">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
           {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
@@ -39,24 +39,10 @@
 {% endif %}
 </div>
 
-
+<!--script-->
 <script src="/assets/js/jquery.min.js"></script>
-
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/modernizr-custom.js"></script>
-<script src="/assets/js/typed.js"></script>
-<script>
-    $("a[href='#top']").click(function() {
-            $("html, body").animate({ scrollTop: 0 }, "slow");
-            return false;
-  });
-    var typed3 = new Typed('#typed3', {
-    strings: ['<strong>Oh hai Hllao tehre..</strong>', '<strong>ups</strong>', '<strong> Hi.. Hello there!</strong>'],
-    typeSpeed: 60,
-    backSpeed: 15,
-    smartBackspace: true, // this is a default
-    loop: true
-  });
-</script>
+<script src="/assets/js/me.js"></script>
 </body>
 </html>

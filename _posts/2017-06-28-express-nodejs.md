@@ -135,6 +135,10 @@ buka port http://localhost:8080 di browser:
 
 untuk lebih mudah dalam pembuatan aplikasi bisa dengan menggunakan *Express application generator*.
 
-To be continued .. **Express application generator**
+#### Ref:
+
+- [Expressjs](https://expressjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Tutorialspoint](https://www.tutorialspoint.com)
 
 

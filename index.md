@@ -15,6 +15,7 @@ title: Home
 
 	</div>
 </div>
+<script src="/assets/js/typed.js"></script>
 
 
 	

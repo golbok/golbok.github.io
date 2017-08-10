@@ -106,7 +106,131 @@ didalam file `fview.pug` akan di render seperti berikut:
 
 ## Passing nilai kedalam template
 
+Ketika melakukan *render* pug template kita bisa melakukan *passing* nilai dari *route handler*
 
-......
+Didalam file `app.js` kita buatkan method `get` dari views yaitu 'dynamic.pug'
 
-**berlanjut, mengantuk**.
+``` js
+app.set('view engine', 'pug');
+app.set('views', './views');
+
+app.get('/dynamic_view', function (req, res){
+  res.render('dynamic',{
+    nama  : "immsswd",
+    url   : "https://immsswd.github.io"
+  });
+});
+```
+
+buat file `dynamic.pug` didalam direktori 'views' untuk membuat interpolasi memanggil variable gunakan **#{variable}**
+
+``` html
+html
+   head
+      title = name
+   body
+      h3 Hallo YTH kpd Saudara #{nama}
+      a( href = url) url ditempel disini
+
+```
+## Conditionals
+
+Menggunakan *statement looping*
+
+buat routing get didalam `app.js`
+
+``` js
+.....
+app.get('/dynamic_view', function (req, res){
+  res.render('dynamic',{
+    user: {
+      nama  : "immsswd",
+      url   : "https://immsswd.github.io"
+    }
+  });
+});
+
+```
+didalam file **./views/dynamic.pug** buat seperti ini:
+
+``` html
+html
+   head
+      title=nama
+   body
+      if(user)
+         h1 Hi, #{user.nama}
+      else
+         a(href = "/daftar" ) Daftar
+      
+```
+### Include & Template menggunakan Bootstrap
+
+Jangan lupa untuk membuat routernya terlebih dahulu gunakan method set untuk menentukan folder **public** untuk meletakkan semua dari assets **bootstrap**:
+
+```js
+
+app.use(express.static(__dirname + '/public'));
+// letakkan folder dan file css, fonts dan js dari paket bootstrap kedalam folder 'public'
+app.get('/webku', function(req, res){
+  res.render('content');
+});
+```
+
+buat kontent `header.pug`, `content.pug` dan `footer.pug` didalama folder **views**:
+
+- file `header.pug`
+
+``` html
+nav.navbar.navbar-inverse.navbar-static-top
+  div.container
+    a.navbar-brand(href="#") Hallo
+```
+- file `content.pug`
+
+``` html
+html
+  head
+    title Judul Web
+    link(rel="stylesheet" type="text/css" href="css/bootstrap.min.css")
+  body
+    include ./header.pug
+    div.container
+      div.row
+        div.col-md-3
+        div.col-md-6
+          h2 ini adalah konten utama
+          form
+            h3 Please Login
+            div.form-group
+              label Username
+              input.form-control(placeholder="Username")
+            div.form-group
+              label Password
+              input.form-control(placeholder="Password")
+            div.form-group
+              input(type='checkbox')
+              p Benar
+            div.form-group
+              button.btn.btn-info.btn-block.
+                Login
+        div.col-md-3
+    include ./footer.pug
+```
+- file `footer.pug`
+
+```html
+footer.footer.nav-fixed-bottom
+  center
+    p Hallo footer &copy; footer
+```
+#### Tampilan:
+
+![puglife](/assets/img/exp/vi.png)
+
+
+#### Ref:
+
+- [Expressjs](https://expressjs.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Tutorialspoint](https://www.tutorialspoint.com)
