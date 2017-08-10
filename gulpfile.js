@@ -3,7 +3,6 @@ var sass = require("gulp-sass");
 var minify = require("gulp-clean-css");
 var uglify = require("gulp-uglify");
 var autoprefixer = require('gulp-autoprefixer');
-var concat = require("gulp-concat");
 
 gulp.task('default',['sass', 'uglify']);
 

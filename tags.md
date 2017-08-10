@@ -33,7 +33,7 @@ title: Tags Index
   <article>
 
   <div class="tag-title" id="{{ this_tag }}">
-    {{ this_tag }}
+    <h3>{{ this_tag }}</h3>
   </div>
     <ul>
     {% for post in site.tags[this_tag] %}
