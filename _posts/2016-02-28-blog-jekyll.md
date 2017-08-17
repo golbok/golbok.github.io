@@ -98,7 +98,7 @@ Stuktur direktori default didalam direktori **/blog-saya**
 ├── Gemfile.lock
 ├── index.md
 └── _posts
-    └── 2017-06-13-welcome-to-jekyll.markdown
+    └── yyyy-mm-dd-welcome-to-jekyll.markdown
 
 1 directory, 6 files
 
