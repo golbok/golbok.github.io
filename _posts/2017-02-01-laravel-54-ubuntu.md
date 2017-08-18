@@ -4,7 +4,7 @@ title:  "Testing Laravel 5.4 di Ubuntu"
 date:   2017-02-01 04:28:06 -0500
 categories: post php
 tags: [laravel, php]
-comments: false
+comments: true
 ---
 
 ![laravel-wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/LaravelLogo.png/1200px-LaravelLogo.png)<center><small class="caption">wikimedia</small></center>
@@ -17,9 +17,11 @@ Seperti kebanyakan versi sebelum-sebelumnya, yang pasti perbaikan-perbaikan past
 
 ### Pemasangan
 
-Pemasangan yang diuji disini tidak menggunakan homestead/vm lainnya, biasa saja seperti memasang aplikasi php lainnya,  pertama menggunakan lampp, ada kendala saat koneksi dengan mysql drivernya ndak ada (kira-kira begitu maksudnya), dan pesan ini terus muncul:
-
 Pada saat pemasangan lebih baik menggunakan `composer create-project --prefer-dist laravel/laravel project` Sebelumnya PATH pada composer diexport didalam bash profile Ubuntu.
+
+Pemasangan yang diuji disini tidak menggunakan homestead/vm lainnya, biasa saja seperti memasang aplikasi php lainnya,  pertama menggunakan lampp, ada kendala saat koneksi dengan mysql drivernya ndak ada, (kira-kira begitu maksudnya), dan pesan seperti gambar dibawah ini terus muncul
+
+![errrno](/assets/img/lar/lar.png) <center class="caption"><small> gambar ini sudah bisa connect, sebelumnya bukan begini lupa ss</small></center> 
 
 ### Database Migration
 
@@ -27,7 +29,6 @@ Pada kasus Sebelumnya selalu `could not find driver` di *Exception*nya, maksudny
 
 ketika melakukan *migrate* kedalam database
 
-![errrno](/assets/img/lar/lar.png) <center class="caption"><small> gambar ini sudah bisa connect, sebelumnya bukan begini lupa ss</small></center> 
 
 **Solusinya** tidak jadi menggunakan lampp, install php-mysql mysql core:
 
