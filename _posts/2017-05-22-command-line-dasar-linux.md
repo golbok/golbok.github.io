@@ -2,7 +2,7 @@
 layout: post
 title: "7 Command-Line Dasar Untuk Mendapatkan Informasi pada Sistem Linux"
 date:   2017-05-22 04:28:06 -0500
-categories: post linux
+categories: linux
 tags: [linux, Command-Line]
 comments: true
 ---

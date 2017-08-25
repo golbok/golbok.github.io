@@ -13,7 +13,6 @@ You can find out more info about customizing your Jekyll, Jekyll usage documenta
 
 <strong>Expert Field:</strong><br>I really do expert at "How to ..." via Search Engine.
 
-
 ### Around the Web
 
 - <i class="fa fa-linkedin"></i>[ LinkedIn](https://id.linkedin.com/in/imam-s-75522380)

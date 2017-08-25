@@ -2,7 +2,7 @@
 layout: post
 title: "Kenapa harus menggunakan VIM"
 date:   2015-11-27 24:11:08 -0400
-categories: post tools
+categories: tools
 tags: [node, express]
 comments: true
 ---

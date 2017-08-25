@@ -2,7 +2,7 @@
 layout: post
 title: "Struktur Data Schema.org dan Fungsinya"
 date:   2016-02-02 21:28:06 -0500
-categories: post blog
+categories: blog
 comments: true
 tags: [markup, schema.org]
 ---

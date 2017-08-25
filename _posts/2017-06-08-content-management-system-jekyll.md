@@ -2,7 +2,7 @@
 layout: post
 title: "CMS Jekyll Menggunakan siteleaf.com"
 date:   2017-06-08 10:28:06 -0500
-categories: post web
+categories: web
 tags: [jekyll, blog]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "(belajar) Express Web Framework - Templating with pug"
 date:   2017-06-29 24:11:08 -0400
-categories: post web
+categories: web
 tags: [node, express]
 comments: true
 ---

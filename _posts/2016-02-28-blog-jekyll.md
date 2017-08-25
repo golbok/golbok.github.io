@@ -2,7 +2,7 @@
 layout: post
 title: "Mudahnya Membuat Blog Jekyll di Linux"
 date:   2016-02-28 19:28:06 -0500
-categories: post jekyll
+categories: jekyll
 comments: true
 tags: [jekyll, blog]
 ---

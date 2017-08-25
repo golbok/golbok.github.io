@@ -2,7 +2,7 @@
 layout: post
 title: "(belajar) Express Web Framework - Node.js"
 date:   2017-06-28 11:28:06 -0400
-categories: post web
+categories: web
 tags: [node, express]
 comments: true
 ---

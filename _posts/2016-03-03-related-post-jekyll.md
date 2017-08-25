@@ -2,7 +2,7 @@
 layout: post
 title:  "Related Post - Jekyll"
 date:   2016-03-03 22:28:06 -0400
-categories: post blog
+categories: jekyll
 comments: true
 tags: [jekyll, blog]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Notes di Linux (Debian)"
 date:   2017-07-07 09:00:08 0500
-categories: post web
+categories: tools
 tags: [tools, apple-note]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Penggunaan Gulp Untuk Front-End Developer"
 date:   2017-02-22 04:28:06 -0500
-categories: post tools
+categories: tools
 tags: [gulp, front-end-developer]
 comments: true
 ---

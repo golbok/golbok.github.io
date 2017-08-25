@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing Laravel 5.4 di Ubuntu"
 date:   2017-02-01 04:28:06 -0500
-categories: post php
+categories: php
 tags: [laravel, php]
 comments: true
 ---
@@ -51,6 +51,20 @@ buka mysql di console, `mysql -u root -p -h host`
 buatkan database yang sesuai dengan DB_DATABASE didalam file .env tadi:
 
     mysql> create database name_database;
-    mysql> use name_database;
 
-dilakukan migrasi lagi, `php artisan migrate` dan *success* baru bisa dilakukan.
+
+lakukan migrasi lagi, `php artisan migrate` dan *success* baru bisa dilakukan.
+kemudian check table yang telah di migrate:
+
+{% highlight mysql %}
+mysql> use name_database;
+mysql> show tables;
++----------------------+
+| Tables_in_nama_db    |
++----------------------+
+| migrations           |
+| password_resets      |
+| users                |
++----------------------+
+3 rows in set (0.03 sec)
+{% endhighlight %}
