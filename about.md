@@ -9,7 +9,7 @@ title: About
 Hi! I am a senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> majors *(<mark>present</mark>).*
 This is my base Jekyll theme. 
 
-You can find out more info about customizing your Jekyll, Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog post has been stored in blog archives <a href="{{ site.url }}/archives/"><i class="fa fa-folder-o"></i></a>
+You can find out more info about customizing your Jekyll, Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog post has been stored in <a href="{{ site.url }}/archives/">blog archives</a>
 
 <strong>Expert Field:</strong><br>I really do expert at "How to ..." via Search Engine.
 

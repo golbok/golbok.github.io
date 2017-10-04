@@ -9,8 +9,8 @@ comments: true
 
 ![setoolkit linux](/assets/img/sk/sk.jpg)<center><small class="caption">setoolkit</small></center>
 
-## Social Engineering Toolkit
-akses pertama untuk dapat menggunakan <em>setoolkit</em> dilinux cuku lakukan instalasi git yang nantinya bisa di clone dari github.
+## Social Engineer Toolkit
+akses pertama untuk dapat menggunakan <em>setoolkit</em> dilinux cukup lakukan instalasi git yang nantinya bisa di clone dari github.
 
 
 Code dibuat oleh <strong> David Kennedy (ReL1K)</strong>
@@ -18,8 +18,6 @@ Code dibuat oleh <strong> David Kennedy (ReL1K)</strong>
 Tools ini basisnya *open-sources* sebagai alat pentest (*penetration testing*)
 
 ### Platform
-
-Windows tidak support untuk Tools ini, karna windows hanya untuk nonton *movie* dan buat dokumen *resume* kerja, hehe..
 
 platform yang mendukung untuk tools ini adalah:
 
