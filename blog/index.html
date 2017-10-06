@@ -26,7 +26,7 @@ title: Blog
     {% assign taglist = post.tags | sort %}
     {% for tag in taglist %}
     <small>
-      <a class="text-dblue label label-danger" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
+      <a class="text-dblue label label-default" href="/tags/#{{ tag | cgi_escape }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>
       {% if forloop.last != true %}, {% endif %}
     </small> 
     {% endfor %}
