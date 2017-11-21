@@ -13,9 +13,9 @@
   "author": "imam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/golbok/golbok.github.io/issues"
+    "url": "https://github.com/immsswd.github.io/issues"
   },
-  "homepage": "https://github.com/golbok/golbok.github.io#readme",
+  "homepage": "https://github.com/immsswd.github.io#readme",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "gulp": "^3.9.1",
