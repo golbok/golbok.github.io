@@ -6,12 +6,18 @@ title: About
 
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
-Hi! I am an <span class="label label-danger">EX</span> senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> majors.
+Hi! I am an <span class="label label-danger">EX</span> senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> major.
 This is my base Jekyll theme. 
 
-You can find out more info about customizing your Jekyll, Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog post has been stored in <a href="{{ site.url }}/archives/">blog archives</a>
+Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog post has been stored in <a href="{{ site.url }}/archives/">blog archives</a>
 
-<strong>Expert Field:</strong><br>I really do expert at "How to ..." via Search Engine.
+<strong><u>Expert Field:</u></strong>
+
+- I really do expert at "How to ..." via Search Engine.
+- PHP (Native).
+- LINUX (Ubuntu)
+
+<i class="fa fa-angle-double-right"></i> Latest project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
 ### Around the Web
 

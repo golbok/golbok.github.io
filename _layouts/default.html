@@ -36,7 +36,7 @@
   {% if site.footer %}
 <footer>
 <!-- <hr class="style1"> -->
-  <p>&copy; {{ site.time | date: "%Y" }} &mdash; {{ site.title }}. <a href="{{ site.url }}/archives/"><u>blog archives</u></a></p>
+  <p>&copy; {{ site.time | date: "%Y" }} &dash; {{ site.title }} &dash; <i class="fa fa-folder-open-o"></i> <a href="{{ site.url }}/archives/" class="text-primary">archives</a></p>
   {% include footer-social.html %}
 </footer> 
 {% endif %}
