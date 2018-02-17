@@ -6,15 +6,8 @@ title: Blog
 <div class="panel panel-default" id="post-p">
   <div class="panel-body">
     <h3 class="media-heading"><a class="text-dblue" href="{{ post.url }}"> {{ post.title }}</a></h3>
-    <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }} - <small> <i class="fa fa-clock-o"></i>
-        {% assign words = content | number_of_words %}
-  				{% if words < 360 %}
-    				about 1 min read
-  			{% else %}
-    				{{ words | divided_by:180 }} mins read
-  				{% endif %}
-      </small>
-        </time>
+    <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}
+    </time>
         <hr> 
       
     {{ post.excerpt }}
