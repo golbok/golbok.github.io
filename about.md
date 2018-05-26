@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-### About
+<h3>About</h3>
 <p style="color:darkgray">Personal Blog</p>
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
@@ -17,12 +17,13 @@ Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All blog's 
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
-### Around the Web
+<hr>
+<h3>Around the Web</h3>
 
 - <i class="fa fa-linkedin"></i>[ LinkedIn](https://id.linkedin.com/in/imam-s-75522380)
 - <i class="fa fa-instagram"></i>[ Instagram](https://instagram.com/imamsiswandi)
 - <i class="fa fa-google"></i>[ Goodreads](https://www.goodreads.com/user/show/68293724-imam)
-
-### Goodreads
+<hr>
+<h3>Goodreads</h3>
 
 {% include goodreads.html %}
