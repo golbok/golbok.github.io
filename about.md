@@ -7,12 +7,14 @@ title: About
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
 Hi!
-I am an <span class="text-danger">EX</span> senior year student of <a href="https://fst.uin-suska.ac.id" target="_blank">Information System</a> major.
 
-Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All blog's post has been stored in <a href="{{ site.url }}/archives/">blog archives</a>
+My shortname is Imam, I am an <span class="text-danger">ex</span>-student of <a href="fst.uin-suska.ac.id" target="_blank">Information System &mdash; UIN Suska Pekanbaru</a> major. I really do expert at "How to" via Search Engine ☺.
 
-- I really do expert at "How to ..." via Search Engine.
-- PHP (Native).
+Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
+
+**Not bad at:**
+- Frontend Dev
+- PHP Native Scripting (Not an expert and neither a beginner).
 - LINUX.
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
