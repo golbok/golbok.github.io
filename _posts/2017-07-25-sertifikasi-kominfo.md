@@ -9,7 +9,7 @@ comments: true
 
 > July 25, 2017, today is my special day
 
-kegiatan ini dilaksanakan selama 3 hari dan peserta tidak diperkenankan meninggalkan lokasi terkecuali dengan syarat2 tertentu, ini bukan seminar ya apalagi pelatihan. 
+kegiatan ini dilaksanakan selama 3 hari di Kota Pekanbaru dan peserta tidak diperkenankan meninggalkan lokasi terkecuali dengan syarat2 tertentu, ini bukan seminar ya apalagi pelatihan. 
 
 Pelaksanaan langsung di bawah komando KOMINFO untuk menguji kemampuan saudara/i dibidang programming dan Network, bagi yang *qualified*/*worthy* dibidangnya saudara/saudari layak untuk diijazahkan.
 

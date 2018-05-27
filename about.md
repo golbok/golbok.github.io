@@ -17,8 +17,8 @@ Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All blog's 
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
-<hr>
-<h3>Around the Web</h3>
+<hr>git
+<h3>Around the Web</h3>g
 
 - <i class="fa fa-linkedin"></i>[ LinkedIn](https://id.linkedin.com/in/imam-s-75522380)
 - <i class="fa fa-instagram"></i>[ Instagram](https://instagram.com/imamsiswandi)
