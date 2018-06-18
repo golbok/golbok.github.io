@@ -6,7 +6,7 @@ title: About
 <p style="color:darkgray">Personal Blog</p>
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
-Hi! my name is Imam, I am <span class="text-danger">ex</span>-majored student of <a href="fst.uin-suska.ac.id" target="_blank">Information System &mdash; UIN Suska, Pekanbaru</a>. I really do expert at "How to" via Search Engine ☺.
+Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. I really do expert at "How to" via Search Engine ☺.
 
 Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
 
