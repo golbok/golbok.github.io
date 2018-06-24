@@ -2,20 +2,21 @@
 layout: default
 title: About
 ---
-<h3>About</h3>
+<h3>Tentang saya</h3>
 <p style="color:darkgray">Personal Blog</p>
 <img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
 
-Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. I really do expert at "How to" via Search Engine ☺.
+Hai Namaku Imam, <span class="text-danger">Mantan</span> mahasiswa <a href="https://uin-suska.ac.id" target="_blank">Sistem Informasi</a> UIN Pekanbaru. Saya suka berbica dengan diri sendiri terutama ketika hendak mandi atau sebelum tidur, dulu ketika kecil suka mandi hujan tapi semenjak didoktrin kalo hujan-hujanan bikin sakit ya jadi ga pernah mandi hujan lagi.
 
-Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
+Untuk mengisi kekosongan waktu biasanya saya suka sok-sokan memainkan gitar ala-ala pro *player* seperti Istiqamah Djamad.
 
-**Not bad at:**
-- Frontend Dev
-- PHP Native Scripting (Not an expert and neither a beginner).
-- LINUX.
+Saya ahli dalam menggunakan "How to .." via *Search Engine* ☺.
+
+Blog ini dibuat menggunakan [jekyllrb](https://jekyllrb.com/). Semua postingan didalam blog ini bisa dilihat dalam blog arsip <a href="{{ site.url }}/archives/">di sini</a>.
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
+
+<a href="mailto:imamsiswandi@gmail.com" class="btn btn-block btn-sm"><span class="text-primary"><i class="fa fa-envelope"></i> EMAIL</span></a>
 
 <hr>
 <h3>Around the Web</h3>
