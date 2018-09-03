@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!-- <meta name="robots" content="noindex, nofollow"> -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+          
+        <meta name="description" content="Pug">
+      
+      <title>(belajar) Express Web Framework - Templating with pug</title>
+        <link rel="stylesheet" href="/assets/css/main.css">
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       -->
+        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+          
+        <link rel="canonical" href="https://immsswd.github.io/web/express-nodejs-pug/">
+        <link rel="shortcut icon" type="image/png" href="/fvi.png">
+
+    </head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://immsswd.github.io">
+      <small class="btn btn-default">
+       <i class="fa fa-home"></i>
+      </small>
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-li" href="/blog/"><i class="fa fa-folder-o text-primary"></i> Blog</a></li>
+          <li><a class="nav-li" href="/about/"><i class="fa fa-user-secret text-primary"></i> About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+      <div class="col-md-8 content">
+      <div class="post">
+<div class="post-title-header">
+	
+	<h2>(belajar) Express Web Framework - Templating with pug</h2>
+	<small id="date-post">
+		30 June 2017 &#9679; immsswd &#9679; 
+		<span class="reading-time" title="Estimated read time">
+  			
+  				
+    				5 mins read
+  				
+		</span>
+            <hr class="hr1">
+	</small>
+	
+</div>
+<div class="post">
+	<h2 id="pug">Pug</h2>
+
+<p>Sebelumnya sudah dibuat routing kebrowser, <a href="https://immsswd.github.io/post/web/express-nodejs/">di express web framework node js</a></p>
+
+<p>Selanjutnya membuat views, menggunakan pug. (namanya suka-suka yang bikin)</p>
+
+<p><strong>Template Engine</strong></p>
+
+<p>Engine untuk membuat template static pada aplikasi yang akan kita buat. <em>Template Engine</em> ini nantinya mempermudah dalam membuat layout seperti HTML misalnya <em>engine</em> ini akan mengganti nilai variable didalam file template dengan dengan nilai variable aslinya, dengan variable yang dimiliki akan mengubah ke dalam bentuk HTML dan dikirimkan ke <em>client request</em></p>
+
+<p>Banyak jenis <em>template engine</em> untuk PHP misalnya ada <strong><em>Blade</em></strong>, <strong><em>Smarty</em></strong>, <strong><em>Twig</em></strong> dll.</p>
+
+<p>kalo di javascript misalnya seperti: <strong><em><a href="https://mustache.github.io/">Moustache</a></em></strong> (bisa juga untuk yang lain), <strong><em><a href="http://handlebarsjs.com/">Handlebars</a></em></strong>, <strong><em>Dust</em></strong>, <strong><em>doT</em></strong>, dan salah satunya adalah <strong><em>PUG</em></strong> yang direkomendasikan di website express</p>
+
+<p>Beberapa fitur dari <em>pug</em> seperti <strong><em>filters, includes, inheritance, interpolation</em></strong> dll.</p>
+
+<h2 id="install--use">Install &amp; Use</h2>
+
+<p>install dependesi dari pug melalui npm:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>npm install pug --save
+</code></pre>
+</div>
+
+<p>Untuk penggunaan pug kita ndak perlu lagi bikin <mark>require</mark> seperti sebelumnya didalam file <code class="highlighter-rouge">app.js</code>, Express akan meminta sendiri modul yang dimaksud.</p>
+
+<p>didalam file <code class="highlighter-rouge">app.js</code></p>
+
+<p>gunakan methd <code class="highlighter-rouge">set</code> namanya ‘view engine’ dan valuenya ‘pug’ seperti</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'view engine'</span><span class="p">,</span> <span class="s1">'pug'</span><span class="p">);</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'views'</span><span class="p">,</span> <span class="s1">'./views'</span><span class="p">);</span>
+</code></pre>
+</div>
+<p>buat folder views di root kemudian buat file <code class="highlighter-rouge">fview.pug</code> jadi <strong>./views/fview.pug</strong></p>
+
+<p><em>fview.twig</em></p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>doctype html
+html
+  head
+    title Hello wul
+  body
+    h2 Welcome to pug
+    p.greet Hello Wul, I m pug, pug life!
+    div
+      | hello this -&gt; sign | used to insert multiline
+      | world
+    div.
+      But that gets tedious if you have a lot of text. You can use "." at the end of tag to denote block of text.
+</code></pre>
+</div>
+
+<p>setelah dibuat, dibawah kode <code class="highlighter-rouge">set</code> dua diatas kita buat ruting, untuk melihat viewnya untuk <em>client</em>:</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/lihatakudisini'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="s1">'fview'</span><span class="p">);</span>
+<span class="p">});</span>
+
+</code></pre>
+</div>
+
+<h3 id="run">Run</h3>
+
+<p>kita jalankan di command servernya:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>nodemon app.js
+<span class="o">[</span>nodemon] 1.11.0
+<span class="o">[</span>nodemon] to restart at any <span class="nb">time</span>, enter <span class="sb">`</span>rs<span class="sb">`</span>
+<span class="o">[</span>nodemon] watching: <span class="k">*</span>.<span class="k">*</span>
+<span class="o">[</span>nodemon] starting <span class="sb">`</span>node app.js<span class="sb">`</span>
+http://localhost:4242
+</code></pre>
+</div>
+<p>didalam file <code class="highlighter-rouge">fview.pug</code> akan di render seperti berikut:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Hello wul<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>Welcome to pug<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"greet"</span><span class="nt">&gt;</span>Hello Wul, I m pug, pug life!<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;div&gt;</span>hello this -&gt; sign | used to insert multiline world
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div&gt;</span>But that gets tedious if you have a lot of text. You can use "." at the end of tag to denote block of text.<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p><img src="/assets/img/exp/pugg.png" alt="pug" /></p>
+
+<h2 id="passing-nilai-kedalam-template">Passing nilai kedalam template</h2>
+
+<p>Ketika melakukan <em>render</em> pug template kita bisa melakukan <em>passing</em> nilai dari <em>route handler</em></p>
+
+<p>Didalam file <code class="highlighter-rouge">app.js</code> kita buatkan method <code class="highlighter-rouge">get</code> dari views yaitu ‘dynamic.pug’</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="nx">app</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'view engine'</span><span class="p">,</span> <span class="s1">'pug'</span><span class="p">);</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">'views'</span><span class="p">,</span> <span class="s1">'./views'</span><span class="p">);</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/dynamic_view'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="s1">'dynamic'</span><span class="p">,{</span>
+    <span class="na">nama</span>  <span class="p">:</span> <span class="s2">"immsswd"</span><span class="p">,</span>
+    <span class="na">url</span>   <span class="p">:</span> <span class="s2">"https://immsswd.github.io"</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre>
+</div>
+
+<p>buat file <code class="highlighter-rouge">dynamic.pug</code> didalam direktori ‘views’ untuk membuat interpolasi memanggil variable gunakan <strong>#{variable}</strong></p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>html
+   head
+      title = name
+   body
+      h3 Hallo YTH kpd Saudara #{nama}
+      a( href = url) url ditempel disini
+
+</code></pre>
+</div>
+<h2 id="conditionals">Conditionals</h2>
+
+<p>Menggunakan <em>statement looping</em></p>
+
+<p>buat routing get didalam <code class="highlighter-rouge">app.js</code></p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="p">.....</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/dynamic_view'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="s1">'dynamic'</span><span class="p">,{</span>
+    <span class="na">user</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">nama</span>  <span class="p">:</span> <span class="s2">"immsswd"</span><span class="p">,</span>
+      <span class="na">url</span>   <span class="p">:</span> <span class="s2">"https://immsswd.github.io"</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+
+</code></pre>
+</div>
+<p>didalam file <strong>./views/dynamic.pug</strong> buat seperti ini:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>html
+   head
+      title=nama
+   body
+      if(user)
+         h1 Hi, #{user.nama}
+      else
+         a(href = "/daftar" ) Daftar
+      
+</code></pre>
+</div>
+<h3 id="include--template-menggunakan-bootstrap">Include &amp; Template menggunakan Bootstrap</h3>
+
+<p>Jangan lupa untuk membuat routernya terlebih dahulu gunakan method <strong>static</strong> untuk menentukan folder <strong>public</strong>, bisa dengan menggunakan <code class="highlighter-rouge">__dirname + '/public'</code> atau hanya <code class="highlighter-rouge">'public'</code> saja gunanya untuk menentukan asset yang diambil dari assets <strong>bootstrap</strong>:</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code>
+<span class="nx">app</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">express</span><span class="p">.</span><span class="kr">static</span><span class="p">(</span><span class="nx">__dirname</span> <span class="o">+</span> <span class="s1">'/public'</span><span class="p">));</span>
+<span class="c1">// letakkan folder dan file css, fonts dan js dari paket bootstrap kedalam folder 'public'</span>
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/webku'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="s1">'content'</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre>
+</div>
+
+<p>buat kontent <code class="highlighter-rouge">header.pug</code>, <code class="highlighter-rouge">content.pug</code> dan <code class="highlighter-rouge">footer.pug</code> didalama folder <strong>./views</strong>:</p>
+
+<ul>
+  <li>file <code class="highlighter-rouge">header.pug</code></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>nav.navbar.navbar-inverse.navbar-static-top
+  div.container
+    a.navbar-brand(href="#") Hallo
+</code></pre>
+</div>
+<ul>
+  <li>file <code class="highlighter-rouge">content.pug</code></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>html
+  head
+    title Judul Web
+    link(rel="stylesheet" type="text/css" href="css/bootstrap.min.css")
+  body
+    include ./header.pug
+    div.container
+      div.row
+        div.col-md-3
+        div.col-md-6
+          h2 ini adalah konten utama
+          form
+            h3 Please Login
+            div.form-group
+              label Username
+              input.form-control(placeholder="Username")
+            div.form-group
+              label Password
+              input.form-control(type="password" placeholder="Password")
+            div.form-group
+              input(type='checkbox')
+              p Benar
+            div.form-group
+              button.btn.btn-info.btn-block.
+                Login
+        div.col-md-3
+    include ./footer.pug
+    // scripts
+    script(src="js/jquery.min.js")
+    script(src="js/bootstrap.min.js")
+</code></pre>
+</div>
+<ul>
+  <li>file <code class="highlighter-rouge">footer.pug</code></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>footer.footer.nav-fixed-bottom
+  center
+    p Hallo footer <span class="ni">&amp;copy;</span> footer
+</code></pre>
+</div>
+<h4 id="view">View:</h4>
+
+<p><img src="/assets/img/exp/vi.png" alt="puglife" /></p>
+
+<h4 id="ref">Ref:</h4>
+
+<ul>
+  <li><a href="https://expressjs.com/">Expressjs</a></li>
+  <li><a href="https://nodejs.org/en/">Node.js</a></li>
+  <li><a href="https://www.tutorialspoint.com">Tutorialspoint</a></li>
+</ul>
+
+<hr>
+
+	<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = "https://immsswd.github.io/web/express-nodejs-pug/";
+this.page.identifier = "/web/express-nodejs-pug/"; 
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gh-pages-3.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+<br>
+<center>
+	<a class="btn btn-default btn-sm" href="#top"><i class="fa fa-arrow-up"></i> Back to top</a>
+</center><br>
+</div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+
+</div><!--End Container-->
+<div class="navbar-static-bottom">
+  
+<footer>
+<!-- <hr class="style1"> -->
+  <p>&copy; 2018. Imam. </p>
+  <div class="social">
+  <a href="https://github.com/immsswd" target="_blank">
+  	<i id="github" class="fa fa-github"></i>
+  </a>
+  <a href="https://www.instagram.com/imamsiswandi/" target="_blank">
+  	<i id="instagram" class="fa fa-instagram"></i>
+  </a>
+  <a href="https://twitter.com/imamsiswnadi" target="_blank">
+  	<i id="twitter" class="fa fa-twitter"></i>
+  </a> 
+</div>
+    <!--Imam &#42; <a href="https://immsswd.github.io/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
+</footer> 
+
+</div>
+
+<!--script-->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/modernizr-custom.js"></script>
+<script id="dsq-count-scr" src="https://gh-pages-3.disqus.com/count.js" async></script>
+<script src="/assets/js/me.js"></script>
+</body>
+</html>
