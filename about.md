@@ -12,6 +12,7 @@ Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this bl
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
+<i class="fa fa-map-marker text-danger"></i> Indonesia
 <hr>
 <h3>Around the Web</h3>
 

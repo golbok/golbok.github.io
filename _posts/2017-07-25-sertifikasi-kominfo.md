@@ -15,7 +15,7 @@ Pelaksanaan langsung di bawah komando KOMINFO untuk menguji kemampuan saudara/i 
 
 ![pict](/assets/img/kom/01.jpg)
 
-Ekspektasi saya diawal seperti diberi materi dulu baru kemudian dilakukan *assessment di hari terakhir. Setelah diuji kemampuan di dunia luar barulah terasa "oh rupanya saya belum ada apa-apanya".
+Ekspektasi saya diawal seperti diberi materi dulu baru kemudian dilakukan *assessment* di hari terakhir. Setelah diuji kemampuan di dunia luar barulah terasa "oh rupanya saya belum ada apa-apanya".
 
 __Ada 2 pelajaran yang saya dapatkan dari uji kompetensi ini:__
 
