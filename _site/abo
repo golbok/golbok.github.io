@@ -104,61 +104,6 @@ My rating: <a href="https://www.goodreads.com/review/show/2017906353">4 of 5 sta
 
 </div>
 
-
----
-layout: default
-title: About
----
-<h3>About</h3>
-<p style="color:darkgray">Personal Blog</p>
-<img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
-
-Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. I really do expert at "How to" via Search Engine ☺.
-
-Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="https://immsswd.github.io/archives/">blog archives</a>.
-
-**Not bad at:**
-- Frontend Dev
-- PHP Native Scripting (Not an expert and neither a beginner).
-- LINUX.
-
-<i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
-
-<hr>
-<h3>Around the Web</h3>
-
-- <i class="fa fa-linkedin"></i>[ LinkedIn](https://id.linkedin.com/in/imam-s-75522380)
-- <i class="fa fa-instagram"></i>[ Instagram](https://instagram.com/imamsiswandi)
-- <i class="fa fa-google"></i>[ Goodreads](https://www.goodreads.com/user/show/68293724-imam)
-<hr>
-<h3>Goodreads</h3>
-
-<div class="gread" itemscope itemtype="http://schema.org/Book">
-
-<div class="gread-float">
-<a href="https://www.goodreads.com/book/show/2612.The_Tipping_Point" style="float: left; padding-right: 20px"><img border="0" alt="The Tipping Point: How Little Things Can Make a Big Difference" src="https://images.gr-assets.com/books/1473396980m/2612.jpg" /></a><a href="https://www.goodreads.com/book/show/2612.The_Tipping_Point">The Tipping Point: How Little Things Can Make a Big Difference</a> by <a href="https://www.goodreads.com/author/show/1439.Malcolm_Gladwell">Malcolm Gladwell</a><br/>
-<a href="https://www.goodreads.com/review/list/68293724-imam">View all my reviews</a>
-
-</div>
-    
-<div class="gread-float">
-<br>
-<a href="https://www.goodreads.com/book/show/89951.The_Rockefeller_File" ><img itemprop="bookFormat" border="0" alt="The Rockefeller File" src="https://images.gr-assets.com/books/1263429893m/89951.jpg" /></a><a href="https://www.goodreads.com/book/show/89951.The_Rockefeller_File">The Rockefeller File</a> by <a href="https://www.goodreads.com/author/show/51644.Gary_Allen">Gary Allen</a><br/>
-My rating: <a href="https://www.goodreads.com/review/show/2078546718">4 of 5 stars</a><br />
-<a href="https://www.goodreads.com/review/list/68293724-imam">View all my reviews</a>
-
-</div>
-<div class="gread-float">
-<a href="https://www.goodreads.com/book/show/11084145-steve-jobs" ><img itemprop="bookFormat" alt="Steve Jobs" itemprop="publisher"  src="https://images.gr-assets.com/books/1327861368m/11084145.jpg" /></a>
-<div class="gread-content">
-<a href="https://www.goodreads.com/book/show/11084145-steve-jobs">Steve Jobs</a> by <a href="https://www.goodreads.com/author/show/7111.Walter_Isaacson">Walter Isaacson</a><br/>
-My rating: <a href="https://www.goodreads.com/review/show/2017906353">4 of 5 stars</a><br />
-<a href="https://www.goodreads.com/review/list/68293724-imam" itemprop="description">View all my reviews</a>
-</div>
-</div>
-
-</div>
-
     </div>
     <div class="col-md-2"></div>
   </div>

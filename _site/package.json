@@ -26,8 +26,5 @@
   },
   "dependencies": {
     "typed.js": "^2.0.5"
-  },
-  "keywords": [
-    "im"
-  ]
+  }
 }

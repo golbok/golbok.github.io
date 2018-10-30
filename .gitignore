@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/sass,node,linux,jekyll,sublimetext
-
+# Created by https://www.gitignore.io/api/node,linux,jekyll,windows,sublimetext
+immsswd.github.io/
 ### Jekyll ###
 _site/
 .sass-cache/
@@ -23,9 +23,6 @@ _site/
 .nfs*
 
 ### Node ###
-/dev
-/node_modules
-Gemfile.lock
 # Logs
 logs
 *.log
@@ -48,7 +45,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -100,10 +97,8 @@ typings/
 # Serverless directories
 .serverless
 
-### Sass ###
-*.css.map
-*.sass.map
-*.scss.map
+# FuseBox cache
+.fusebox/
 
 ### SublimeText ###
 # Cache files for Sublime Text
@@ -137,5 +132,31 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+dev/
 
-# End of https://www.gitignore.io/api/sass,node,linux,jekyll,sublimetext
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+# End of https://www.gitignore.io/api/node,linux,jekyll,windows,sublimetext
