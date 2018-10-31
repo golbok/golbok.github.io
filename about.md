@@ -4,7 +4,7 @@ title: About
 ---
 <h3>About</h3>
 <p style="color:darkgray">Personal Blog</p>
-<img class="profile-picture" src="/assets/img/index.jpeg" alt="author">
+<img class="profile-picture img-responsive img-thumbnail" src="/assets/img/index.jpeg" alt="author">
 
 Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. I really do expert at "How to" via Search Engine ☺.
 
