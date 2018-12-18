@@ -26,5 +26,21 @@
     <div class="col-md-12">
         {{ content }}
     </div>
+<div class="navbar-static-bottom">
+  {% if site.footer %}
+<footer>
+<!-- <hr class="style1"> -->
+  <p>&copy; {{ site.time | date: "%Y" }}. Imam. </p>
+  {% include footer-social.html %}
+    <!--Imam &#42; <a href="{{ site.url }}/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
+</footer> 
+{% endif %}
+</div>
+
+<!--script-->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/modernizr-custom.js"></script>
+<script src="/assets/js/me.js"></script>
 </body>
 </html>
