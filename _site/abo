@@ -13,7 +13,7 @@
 <!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       -->
         <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
           
-        <link rel="canonical" href="https://immsswd.github.io/abo">
+        <link rel="canonical" href="http://localhost:4000/abo">
         <link rel="shortcut icon" type="image/png" href="/fvi.png">
 
     </head>
@@ -31,7 +31,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://immsswd.github.io">
+      <a class="navbar-brand" href="http://localhost:4000">
       <small class="btn btn-default">
        <i class="fa fa-home"></i>
       </small>
@@ -41,7 +41,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a class="nav-li" href="/blog/"><i class="fa fa-book text-primary"></i> Blog</a></li>
-          <li><a class="nav-li" href="/about/"><i class="fa fa-user-secret text-primary"></i> About</a></li>
+        <li><a class="nav-li" href="/about/"><i class="fa fa-user-secret text-primary"></i> About</a></li>
+        <li><a class="nav-li" href="/randomartworks/"><i class="fa fa-list text-primary"></i> Random Artworks</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
       </div>
@@ -63,7 +64,7 @@ Untuk mengisi kekosongan waktu biasanya saya suka sok-sokan memainkan gitar ala-
 
 Saya ahli dalam menggunakan "How to .." via *Search Engine* ☺.
 
-Blog ini dibuat menggunakan [jekyllrb](https://jekyllrb.com/). Semua postingan didalam blog ini bisa dilihat dalam blog arsip <a href="https://immsswd.github.io/archives/">di sini</a>.
+Blog ini dibuat menggunakan [jekyllrb](https://jekyllrb.com/). Semua postingan didalam blog ini bisa dilihat dalam blog arsip <a href="http://localhost:4000/archives/">di sini</a>.
 
 <i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
@@ -125,7 +126,7 @@ My rating: <a href="https://www.goodreads.com/review/show/2017906353">4 of 5 sta
   	<i id="twitter" class="fa fa-twitter"></i>
   </a> 
 </div>
-    <!--Imam &#42; <a href="https://immsswd.github.io/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
+    <!--Imam &#42; <a href="http://localhost:4000/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
 </footer> 
 
 </div>
