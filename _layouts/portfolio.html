@@ -8,7 +8,7 @@
           {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
         <meta name="description" content="{{ description }}">
       
-      <title>{{ page.title }} - {{ site.title }}</title>
+      <title>{{ page.title }} | Imam</title>
         <link rel="stylesheet" href="/assets/css/main.css">
 <!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       -->
         <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
@@ -32,7 +32,6 @@
 <!-- <hr class="style1"> -->
   <p>&copy; {{ site.time | date: "%Y" }}. Imam. </p>
   {% include footer-social.html %}
-    <!--Imam &#42; <a href="{{ site.url }}/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
 </footer> 
 {% endif %}
 </div>
