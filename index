@@ -1,0 +1,14 @@
+---
+layout: page
+title: Home
+---
+
+    <header class="header">
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Welcome</span>
+                <!-- <span class="heading-primary-sub">is where life happens</span> -->
+            </h1>
+            <a href="/blog/" class="btn btn-white">Blog <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </header>
