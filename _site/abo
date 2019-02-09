@@ -52,6 +52,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
+  
   <div class="row">
     <div class="col-md-2"></div>
       <div class="col-md-8 content">
@@ -112,11 +113,12 @@ My rating: <a href="https://www.goodreads.com/review/show/2017906353">4 of 5 sta
 
 </div><!--End Container-->
 <div class="navbar-static-bottom">
-  
+
 <footer>
 <!-- <hr class="style1"> -->
-  <p>&copy; 2018. Imam. </p>
-  <div class="social">
+  <p>&copy; 2019. Imam. </p>
+  <!-- imamsiwandi -->
+<div class="social">
   <a href="https://github.com/immsswd" target="_blank">
   	<i id="github" class="fa fa-github"></i>
   </a>

@@ -23,18 +23,13 @@
     </head>
 <body>
 {% include nav.html %}
-<div class="container">
-  
-  <div class="row">
-    <div class="col-md-2"></div>
-      <div class="col-md-8 content">
-      {{ content }}
-    </div>
-    <div class="col-md-2"></div>
-  </div>
 
-</div><!--End Container-->
-<div class="navbar-static-bottom">
+<div class="container">
+    <div class="row">
+        {{ content }}
+    </div>
+</div>
+
 {% if site.footer %}
 <footer>
 <!-- <hr class="style1"> -->
@@ -43,8 +38,6 @@
     <!--Imam &#42; <a href="{{ site.url }}/archives/" class="text-primary"><i class="fa fa-folder-open-o"></i></a>-->
 </footer> 
 {% endif %}
-</div>
-
 <!--script-->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
