@@ -6,11 +6,11 @@ title: About
 <p style="color:darkgray">Personal Blog</p>
 <img class="profile-picture img-responsive img-thumbnail" src="/assets/img/index.jpeg" alt="author">
 
-Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. I really do expert for "How to" using Search Engine ☺.
+Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. Passionate about Computer Software, reading, graphic design, music and social activities. I really do expert for "How to" using Search Engine ☺.
 
 Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
 
-<i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
+<i class="fa fa-thumb-tack"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
 <i class="fa fa-map-marker text-danger"></i> Indonesia
 <hr>
