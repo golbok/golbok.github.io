@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="https://immsswd.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://immsswd.github.io/" rel="alternate" type="text/html" /><updated>2019-02-10T21:39:07+07:00</updated><id>https://immsswd.github.io/</id><title type="html">immsswd</title><subtitle>a student, random thing, linux, programming, front-end dev, geeks, a guy pretend being an expert.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="https://immsswd.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://immsswd.github.io/" rel="alternate" type="text/html" /><updated>2019-03-03T21:42:40+07:00</updated><id>https://immsswd.github.io/</id><title type="html">immsswd</title><subtitle>a student, random thing, linux, programming, front-end dev, geeks, a guy pretend being an expert.
 </subtitle><entry><title type="html">Paradoks Kesuksesan/Kegagalan</title><link href="https://immsswd.github.io/note/paradoks-sukses-gagal/" rel="alternate" type="text/html" title="Paradoks Kesuksesan/Kegagalan" /><published>2017-12-02T09:00:08+07:00</published><updated>2017-12-02T09:00:08+07:00</updated><id>https://immsswd.github.io/note/paradoks-sukses-gagal</id><content type="html" xml:base="https://immsswd.github.io/note/paradoks-sukses-gagal/">&lt;p&gt;…&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Picasso&lt;/strong&gt; tetap produktif sepanjang hidupnya. Dia hidup hingga usia 90-an dan terus menghasilkan karya seni sampai tahun-tahun terakhirnya. Andai saja ukuran yang dipakainya adalah “Menjadi terkenal” atau “Menghasilkan banyak uang dalam dunia seni” atau “Membuat seribu lukisan,” dia akan mengalami kemandekan dalam perjalan hidupnya. Dia akan dikuasai oleh kecemasan atau keragu-raguan. Sepertinya dia tidak akan pernah memperbaiki dan melakukan inovasi atas karyanya seperti yang dilakukannya dekade demi dekade.&lt;/p&gt;
@@ -1034,10 +1034,115 @@ mysql&amp;gt; show tables;
 | password_resets      |
 | users                |
 +----------------------+
-3 rows in set (0.03 sec)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="laravel" /><category term="php" /><summary type="html">wikimedia</summary></entry><entry><title type="html">ASCII Armored GPG/PGP</title><link href="https://immsswd.github.io/linux/pub-key/" rel="alternate" type="text/html" title="ASCII Armored GPG/PGP" /><published>2016-07-02T20:28:06+07:00</published><updated>2016-07-02T20:28:06+07:00</updated><id>https://immsswd.github.io/linux/pub-key</id><content type="html" xml:base="https://immsswd.github.io/linux/pub-key/">&lt;p&gt;Batik ASCII&lt;/p&gt;
+3 rows in set (0.03 sec)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="laravel" /><category term="php" /><summary type="html">wikimedia</summary></entry><entry><title type="html">Related Post - Jekyll</title><link href="https://immsswd.github.io/jekyll/related-post-jekyll/" rel="alternate" type="text/html" title="Related Post - Jekyll" /><published>2016-03-04T09:28:06+07:00</published><updated>2016-03-04T09:28:06+07:00</updated><id>https://immsswd.github.io/jekyll/related-post-jekyll</id><content type="html" xml:base="https://immsswd.github.io/jekyll/related-post-jekyll/">&lt;h2 id=&quot;jekyll-related-post&quot;&gt;Jekyll related post&lt;/h2&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;em&gt;imamsiswandi at gmail.com&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Dalam penulisan artikel lebih menarik jika post ditambahkan dengan link antar post yang saling berkaitan, ada dua metode membuat &lt;em&gt;related post&lt;/em&gt; &lt;a href=&quot;https://jekyllrb.com/docs/variables/&quot;&gt;variable&lt;/a&gt; didalam jekyll menggunakan &lt;em&gt;liquid&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;GPG/PGP pub: ↓&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Menggunakan &lt;em&gt;related&lt;/em&gt; berdasarkan tags pada &lt;em&gt;post&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;bisa menggunakan &lt;em&gt;post categories&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&quot;/pgp.txt&quot;&gt;pgparmor&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="gpg key" /><category term="pgp" /><summary type="html">Batik ASCII</summary></entry></feed>
+&lt;h3 id=&quot;1-related-post-menggunakan-tags&quot;&gt;1. Related post menggunakan &lt;strong&gt;tags&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Referensi didalam blog &lt;a href=&quot;https://anmonteiro.com/2015/08/jekyll-related-posts-revamped/&quot;&gt;Anmonteiro&lt;/a&gt; mengambil list &lt;em&gt;related post&lt;/em&gt; berdasarkan tags:
+di urutuan variabel YAML frontmatter, tambahkan tags&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: &quot;foo lost&quot;
+tags: foo lost bar too
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign RELATED_POSTS_THRESHOLD = 3 %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;related-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  {% assign related_post_count = 0 %}
+  {% for post in site.related_posts %}
+    {% if related_post_count == RELATED_POSTS_THRESHOLD %}
+      {% break %}
+    {% endif %}
+    {% for tag in post.tags %}
+      {% if page.tags contains tag %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}{{ post.url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+              {{ post.title }}
+              &lt;span class=&quot;nt&quot;&gt;&amp;lt;small&amp;gt;&lt;/span&gt;{{ post.date | date_to_string }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/small&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+        {% assign related_post_count = related_post_count | plus: 1 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% assign posts_left = RELATED_POSTS_THRESHOLD | minus: related_post_count %}
+  {% unless posts_left == 0 %}
+    {% for post in site.related_posts %}
+      {% if posts_left == 0 %}
+        {% break %}
+      {% endif %}
+
+      {% assign already_related = false %}
+      {% for tag in post.tags %}
+        {% if page.tags contains tag %}
+          {% assign already_related = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% unless already_related %}
+        {% assign posts_left = posts_left | minus: 1 %}
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}{{ post.url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+              {{ post.title }}
+              &lt;span class=&quot;nt&quot;&gt;&amp;lt;small&amp;gt;&lt;/span&gt;{{ post.date | date_to_string }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/small&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+      {% endunless %}
+    {% endfor %}
+  {% endunless %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;2-related-post-menggunakan-category&quot;&gt;2. Related post menggunakan category&lt;/h3&gt;
+
+&lt;p&gt;Untuk membuat &lt;em&gt;related post&lt;/em&gt; berdasarkan &lt;strong&gt;categories&lt;/strong&gt; yang mengambil referensi dari &lt;a href=&quot;https://alligator.io/jekyll/related-posts-in-jekyll/#fnref:1&quot;&gt;Alligator.io&lt;/a&gt; menggunakan syntax liquid:&lt;/p&gt;
+
+&lt;p&gt;sesuaikan category dengan nama variable di YAML frontmatter:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: &quot;foo lost&quot;
+categories: post foo bar
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% unless page.category == null %}
+  {% capture pageCategory %}{{ page.category }}{% endcapture %}
+  {% unless site.categories[pageCategory].size == 1 %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row related-posts&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;More {{ page.category }} Posts!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;medium-12 small-12 columns&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        {% for post in site.categories[pageCategory] limit:6 %}
+          {% unless post.title == page.title %}
+
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ site.baseurl }}{{ post.url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+              {{ post.title }}
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+           &lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+
+          {% endunless %}
+        {% endfor %}
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  {% endunless %}
+{% endunless %}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="jekyll" /><category term="blog" /><summary type="html">Jekyll related post</summary></entry></feed>
