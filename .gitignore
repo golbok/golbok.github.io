@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/node,linux,jekyll,windows,sublimetext
 ### Jekyll ###
+*.bak
+*.test
 _site/
 .sass-cache/
 .jekyll-cache/

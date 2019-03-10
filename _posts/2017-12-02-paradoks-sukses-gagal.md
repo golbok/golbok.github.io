@@ -13,4 +13,4 @@ comments: true
 
 ...
 
-*THE SUBTLE ART OF NOT GIVING A F*GK*
+*THE SUBTLE ART OF NOT GIVING A FxxK*
