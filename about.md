@@ -10,7 +10,7 @@ Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href
 
 Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
 
-<i class="fa fa-angle-double-right"></i> Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
+<i class="fa fa-thumb-tack"></i> Demo Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
 <i class="fa fa-map-marker text-danger"></i> Indonesia
 <hr>
