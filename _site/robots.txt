@@ -1,2 +1,0 @@
-Sitemap: https://immsswd.github.io/sitemap.xml
-User-agent: *
