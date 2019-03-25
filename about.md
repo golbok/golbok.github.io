@@ -8,7 +8,7 @@ title: About
 
 Hi! my name is Imam, I am <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major. Passionate about Computer Software, reading, graphic design, music and social activities. I really do expert for "How to" using Search Engine ☺.
 
-Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/). All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
+Jekyll usage documentation at  <a href="https://jekyllrb.com/" target="_blank">jekyllrb.com</a>. All this blog's posts has been maintained in <a href="{{ site.url }}/archives/">blog archives</a>.
 
 <i class="fa fa-thumb-tack"></i> Demo Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 

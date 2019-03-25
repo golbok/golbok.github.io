@@ -9,6 +9,7 @@ _site/
 .jekyll-metadata
 _posts/*.bak
 _site
+scripts/
 ### Linux ###
 *~
 *.bak
