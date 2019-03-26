@@ -1,7 +1,7 @@
 title: immsswd
 email: imamsiswandii at gmail do com
 description: >
-   a student, random thing, linux, programming, front-end dev, geeks, a guy pretend being an expert.
+   Computer software and another things.
 baseurl: ""
 url: "https://immsswd.github.io"
 canonical-url: "https://immsswd.github.io"
@@ -15,6 +15,8 @@ timezone: Asia/Jakarta
 collections:
   galls:
 
+#sitemaps
+#sitemap: true
 
 # Build settings
 markdown: kramdown
@@ -23,6 +25,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,8 +1,8 @@
-var gulp = require("gulp");
-var sass = require("gulp-sass");
-var minify = require("gulp-clean-css");
-var uglify = require("gulp-uglify");
-var autoprefixer = require('gulp-autoprefixer');
+var gulp            = require("gulp");
+var sass            = require("gulp-sass");
+var minify          = require("gulp-clean-css");
+var uglify          = require("gulp-uglify");
+var autoprefixer    = require('gulp-autoprefixer');
 
 gulp.task('default', ['sass', 'uglify']);
 

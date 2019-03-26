@@ -1,30 +1,33 @@
 {
   "name": "immsswd.github.io",
   "version": "1.0.0",
-  "description": "imam's github page",
+  "description": "init 01",
   "main": "gulpfile.js",
+  "dependencies": {
+    "browserslist": "^4.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/immsswd/immsswd.github.io.git"
   },
   "author": "imam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/immsswd.github.io/issues"
+    "url": "https://github.com/immsswd/immsswd.github.io/issues"
   },
-  "homepage": "https://github.com/immsswd.github.io#readme",
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0"
-  },
-  "dependencies": {
-    "typed.js": "^2.0.5"
-  }
+  "homepage": "https://github.com/immsswd/immsswd.github.io#readme"
 }
