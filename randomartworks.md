@@ -10,9 +10,9 @@ title: randomatworks
   				<div class="col-sm-6 col-md-4">
     				<div class="thumbnail">
       				<img src="{{ gall.image_path }}" alt="{{ gall.title }}">
-        			<h3 class="text-center">{{ gall.content }}</h3>
+        			<div class="well well-sm"><h3 class="text-center">{{ gall.content }}</h3></div>
         			<p></p>
-        			<p><a href="#" class="btn btn-primary btn-block" role="button"><i class="fa fa-eye"></i></a> </p>
+        			<!-- <p><a href="#" class="btn btn-primary btn-block" role="button"><i class="fa fa-eye"></i></a> </p> -->
       			
     				</div>
   				</div>
