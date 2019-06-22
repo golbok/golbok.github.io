@@ -6,15 +6,18 @@ title: About
 <p style="color:darkgray">Personal Blog</p>
 <img class="profile-picture img-responsive img-thumbnail" src="/assets/img/index.jpeg" alt="author">
 
-Hi! I am Imam, <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> majors at UIN SUSKA Pekanbaru. I do like Computer Software, reading, graphic design, music and social activities and obviously yes, I really do expert for "How to .." using Search Engines ☺.
+Hi! I am Imam, <span class="text-danger">ex</span>-student of <a href="https://uin-suska.ac.id" target="_blank">Information System</a> major at UIN SUSKA Pekanbaru. I do like Computer Software, reading, graphic design, music and social activities and obviously yes, I really do expert at "How to .." using Search Engines ☺.
 
+At Backend Programming, particularly for Backend-dev I am neither literally an expert nor a beginner but I do love it. 
 Now I am working as a Software Dev at PT. Asuransi Raksa Pratikara, Jakarta.
 
-Jekyll usage documentation at  <a href="https://jekyllrb.com/" target="_blank">jekyllrb.com</a>. All this blog posts has been listed in <a href="{{ site.url }}/archives/">blog archives</a>.
+This blog made by jekyll and Bootsrap as a framewrok, for Jekyll usage documentation you can see at  <a href="https://jekyllrb.com/" target="_blank">jekyllrb.com</a>. 
+
+<i class="fa fa-book"></i> <a href="{{ site.url }}/archives/">Blog Archives</a>.
 
 <i class="fa fa-thumb-tack"></i> Demo Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamta.000webhostapp.com).
 
-<i class="fa fa-map-marker text-danger"></i> Indonesia
+<i class="fa fa-map-marker text-danger"></i> Jakarta
 <hr>
 <h3>Around the Web</h3>
 
