@@ -9,7 +9,7 @@ comments: true
 
 ## Pug
 
-Sebelumnya sudah dibuat routing kebrowser, [di express web framework node js](https://immsswd.github.io/post/web/express-nodejs/)
+Sebelumnya sudah dibuat routing kebrowser, (baca: [(belajar) Express Web Framework - Node.js](https://immsswd.github.io/post/web/express-nodejs/))
 
 Selanjutnya membuat views, menggunakan pug. (namanya suka-suka yang bikin)
 

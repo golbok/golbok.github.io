@@ -14,7 +14,7 @@ Membangun website menggunakan jekyll memang agak rumit awalnya menggunakan text-
 ![Siteleaf](/assets/img/sl/11.png)
 <center class="caption"><small>siteleaf.com</small></center>
 
-[Siteleaf](https://www.siteleaf.com/) merupakan *Content Management System* yang didesain untuk kebutuhan membangun website.
+[Siteleaf](https://www.siteleaf.com/) merupakan *Content Management System* yang didesain untuk kebutuhan membangun website (Baca juga: [Related Post - Jekyll](https://immsswd.github.io/jekyll/related-post-jekyll/)).
 
 ## Memulai kustom
 
