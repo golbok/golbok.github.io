@@ -20,7 +20,6 @@ This blog made by jekyll and Bootsrap, for Jekyll usage documentation you can se
 <hr>
 <h3>Around the Web</h3>
 
-- <i class="fa fa-linkedin"></i>[ LinkedIn](https://id.linkedin.com/in/imam-s-75522380)
 - <i class="fa fa-instagram"></i>[ Instagram](https://instagram.com/imamsisw)
 - <i class="fa fa-google"></i>[ Goodreads](https://www.goodreads.com/user/show/68293724-imam)
 <hr>
