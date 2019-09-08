@@ -4,7 +4,8 @@
   "description": "init 01",
   "main": "gulpfile.js",
   "dependencies": {
-    "browserslist": "^4.5.3"
+    "browserslist": "^4.5.3",
+    "npm": "^6.11.3"
   },
   "devDependencies": {
     "gulp": "^4.0.0",

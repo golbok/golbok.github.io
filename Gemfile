@@ -16,6 +16,7 @@ gem "minima", "~> 2.0"
 gem 'jekyll-sitemap', '~> 1.2'
 gem "wdm", ">= 0.1.0"
 gem "jekyll-seo-tag"
+gem 'optimist', '~> 3.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
