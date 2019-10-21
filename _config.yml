@@ -21,6 +21,8 @@ collections:
 #sitemaps
 #sitemap: true
 
+future: public_storage/
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
