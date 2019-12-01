@@ -13,7 +13,7 @@ This blog made by jekyll and Bootsrap, for Jekyll usage documentation you can se
 
 <i class="fa fa-book"></i> <a href="{{ site.url }}/archives/">Blog Archives</a>.
 
-<i class="fa fa-thumb-tack"></i> College's Demo Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://puwsil-imam.000webhostapp.com/).
+<i class="fa fa-thumb-tack"></i> College's Demo Project: [Pustaka Wilayah (Soeman HS Pekanbaru)](https://imamport.000webhostapp.com/).
 
 <i class="fa fa-map-marker text-danger"></i> ID
 <hr>
