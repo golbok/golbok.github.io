@@ -20,6 +20,9 @@ collections:
 
 #sitemaps
 #sitemap: true
+# sass:
+#   sass_dir: dev/sass
+#   style: compressed
 
 future: public_storage/
 
