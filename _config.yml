@@ -15,7 +15,7 @@ paginate: 3
 paginate_path: "/_layouts/home:num"
 
 disqus:
-  shortname: https-immsswd-github-io 
+  shortname: imam-3 
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
