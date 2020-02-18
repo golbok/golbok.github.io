@@ -28,8 +28,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: nil
-    github:  nil
+    # twitter: nil
+    # github:  nil
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
