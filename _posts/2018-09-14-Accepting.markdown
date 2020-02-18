@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Accepting and Re-thinking"
+title: "Accepting"
 date: 2018-09-14 07:22:15 +0000
 categories: Notes
 comments: true
