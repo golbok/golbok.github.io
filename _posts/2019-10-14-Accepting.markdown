@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Accepting"
-date: 2020-02-14 07:22:15 +0000
+date: 2019-10-14 07:22:15 +0000
 categories: notes
 comments: false
 ---
