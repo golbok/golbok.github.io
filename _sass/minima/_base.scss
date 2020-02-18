@@ -2,6 +2,10 @@
  * Reset some basic elements
  */
 
+*{
+ box-sizing: border-box;
+}
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -44,8 +48,7 @@ ul, ol, dl, figure,
 }
 
 hr {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
+  margin: $spacing-unit 0;
 }
 
 /**
@@ -104,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
@@ -139,7 +141,8 @@ blockquote {
   border-left: 4px solid $brand-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  //letter-spacing: -1px;
+  letter-spacing: $blockquote-letter-spacing;
   font-style: italic;
 
   > :last-child {

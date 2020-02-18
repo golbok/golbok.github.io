@@ -13,6 +13,7 @@ _posts/draft/
 draft/
 .travis.yml
 # git
+_sass/minima/*.bak
 
 # Created by https://www.gitignore.io/api/git
 # Edit at https://www.gitignore.io/?templates=git

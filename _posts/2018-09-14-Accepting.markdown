@@ -23,9 +23,10 @@ Dalam mempelajari segala hal, pelajarilah hal-hal yang tidak anda sukai, karena 
 
 
 # Analisalah apa yang sebenarnya kamu butuhkan!
-Menentukan tujuan hidup bisa diawali dengan:
-- Memahami apa diri kita???
-- Siapa diri kita??
-- Apa yang diinginkan diri kita sebenarnya dalam hidup??
+Menentukan tujuan anda misalnya bisa dengan memahami beberapa pertanyaan kecil berikut:
+- Memahami apa diri kita?
+- Siapa diri kita?
+- Apa yang diinginkan diri kita sebenarnya dalam hidup?
 
 &mdash; *Tulisan ini saya sadur dari kuliah umum Om Bagus - Kahfi BBC Jakarta*
+
