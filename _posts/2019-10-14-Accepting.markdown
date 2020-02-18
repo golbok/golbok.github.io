@@ -2,7 +2,7 @@
 layout: post
 title: "Accepting"
 date: 2019-10-14 07:22:15 +0000
-categories: notes
+categories: Notes
 comments: true
 ---
 Sejatinya Manusia adalah makhluk yang terlambat mengenali dirinya sendiri. Untuk dapat mengenali dirinya, seyogyanya seorang manusia harus menerima atau juga bisa bisa mengakui kekurangan dirinya secara ikhlas tanpa embel-embel "dongkol", lalu bagaimana cara mengenali diri sendiri? yaitu dengan;
