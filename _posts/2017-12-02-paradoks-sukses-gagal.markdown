@@ -3,7 +3,7 @@ layout: post
 title: "Paradoks Kesuksesan/Kegagalan"
 date:   2017-12-02 09:00:08 0460
 categories: notes
-comments: false
+comments: true
 ---
 ![Picasso](https://radiowest.kuer.org/sites/radiowest/files/styles/x_large/public/201903/rw031419_picasso_0.jpg)
 <center class="caption"><small>Pablo Picasso, 1904, Paris, photograph by Ricard Canals i Llambí [radiowest.kuer.org]</small></center>

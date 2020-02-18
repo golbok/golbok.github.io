@@ -5,7 +5,8 @@ author:
 baseurl: ""
 url: "https://immsswd.github.io"
 canonical-url: "https://immsswd.github.io"
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title
 description: > # this means to ignore newlines until "show_excerpts:"
   Technology, Random things and Islam.
 show_excerpts: true # set to true to show excerpts on the homepage
