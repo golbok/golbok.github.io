@@ -9,7 +9,7 @@ canonical-url: "https://immsswd.github.io"
 permalink: /:categories/:year/:month/:day/:title
 description: > # this means to ignore newlines until "show_excerpts:"
   Technology and Random things.
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 lang: ID
 paginate: 3
