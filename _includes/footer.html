@@ -16,7 +16,9 @@
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">&copy; {{ site.time | date: "%Y" }} &mdash; {{ site.author.name | escape }}</li>
+            <li class="p-name">&copy; {{ site.author.name | escape }} <br>
+	    	<small><a href="https://github.com/jekyll/minima" target="_blank">Minima</a></small>
+	    </li>
           {% endif -%}
           {% if site.author.email -%}
             <li><a class="u-email" href="mailto:{{ site.author.email | escape }}">Send Mail</a></li>
