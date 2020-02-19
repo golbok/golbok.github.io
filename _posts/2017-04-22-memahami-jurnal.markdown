@@ -36,3 +36,5 @@ Kesimpulan yang baik adalah menjawab inti permasalahan. Misal: Pengaruh durasi p
 6. **Lihat kembali bagian *Abstract*** <br>
 Untuk memastikan Pemahamanmu terhadap keseluruhan jurnal
 Sebenarnya ini untuk cek-ricek apa yang kamu tangkap dari jurnal tersebut sesuai apa tidak. Jika belum sesuai atau belum paham bisa mengulangi memahami bagian yang belum dirasa faham.
+
+&mdash; Cari disini -> [Jurnal Science](https://www.sciencedirect.com)
