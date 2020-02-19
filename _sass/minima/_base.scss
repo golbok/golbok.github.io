@@ -133,12 +133,13 @@ a {
  * Blockquotes
  */
 blockquote {
+  font-family: sans-serif;
   color: $brand-color;
   border-left: 4px solid $brand-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  //letter-spacing: -1px;
-  letter-spacing: $blockquote-letter-spacing;
+  letter-spacing: -1px;
+  //letter-spacing: $blockquote-letter-spacing;
   font-style: italic;
 
   > :last-child {

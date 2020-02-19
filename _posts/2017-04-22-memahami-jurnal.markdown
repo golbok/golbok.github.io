@@ -9,7 +9,7 @@ comments: true
 diambil dari: [rencanamu.id](https://rencanamu.id/post/dunia-kuliah/jurusan-dan-perkuliahan/tips-mudah-memahami-jurnal-ilmiah) untuk diingat!!
 </small>
 # Memahami Jurnal Ilmiah
-Kenapa dianjurkan untuk sering-sering membaca Jurnal ilmiah? karena bisanya riset yang diterbitkan dari jurnal tersebut lebih udpate dari pada *textbook* yang ada (biasanya).
+Kenapa dianjurkan untuk sering-sering membaca Jurnal ilmiah? karena bisanya riset yang diterbitkan dari jurnal tersebut lebih udpate daripada *textbook* yang ada (biasanya).
 
 ![Jurnal Ilmiah](http://www.youthmanual.com/assets/file_uploaded/editor/1489559707-evaluation.jpg)
 <center class="caption"><small> Jurnal [youthmanual]</small></center>
@@ -31,7 +31,7 @@ Cukup menulis apa-apa saja yang menjadi hasil penelitiannya. Informasi yang haru
   - ukuran sampel yang digunakan, apakah sampel yang digunakan sudah cukup representatif
 
 5. **Lihat bagian kesimpulan**<br>
-Kesimpulan yang baik adalah menjawab inti permasalahan. Misal: Pengaruh durasi penggunaan sosial media pada remaja terhadap prestasi akademik. Bagian kesimpulan harus menjawab apakah ada hubungannya antara ***Social Media*** dengan **Prestasi**. Kalaupun ditemukan ada hubungannya, harus diperjelas lagi apakah signifikan (berpengaruh nyata atau tidak.
+Kesimpulan yang baik adalah menjawab inti permasalahan. Misal: Pengaruh durasi penggunaan sosial media pada remaja terhadap prestasi akademik. Bagian kesimpulan harus menjawab apakah ada hubungannya antara ***Social Media*** dengan **Prestasi**. Kalaupun ditemukan ada hubungannya, harus diperjelas lagi apakah signifikan (berpengaruh nyata atau tidak).
 
 6. **Lihat kembali bagian *Abstract*** <br>
 Untuk memastikan Pemahamanmu terhadap keseluruhan jurnal
