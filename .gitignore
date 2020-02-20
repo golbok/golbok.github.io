@@ -9,11 +9,12 @@ vendor
 _posts/*.draft
 .editorconfig
 script/
-_posts/draft/
+_posts/*.draft
 draft/
 .travis.yml
 # git
 _sass/minima/*.bak
+_sass/minima/*.draft
 
 # Created by https://www.gitignore.io/api/git
 # Edit at https://www.gitignore.io/?templates=git

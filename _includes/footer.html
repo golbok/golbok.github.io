@@ -10,18 +10,17 @@
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
+            </svg><span>RSS</span>
           </a>
         </p>
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">&copy; {{ site.author.name | escape }} <br>
-	    	<small><a href="https://github.com/jekyll/minima" target="_blank">Minima</a></small>
-	    </li>
+            <li class="p-name">&copy; {{ site.author.name | escape }}</li>
+	    <li> <small><a href="https://github.com/jekyll/minima" target="_blank">Minima</a></small></li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email | escape }}">Send Mail</a></li>
+            <li><a class="u-email" href="mailto:{{ site.author.email | escape }}">Send me Mail</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
