@@ -12,6 +12,8 @@ script/
 _posts/*.draft
 draft/
 .travis.yml
+*.draft
+
 # git
 _sass/minima/*.bak
 _sass/minima/*.draft
