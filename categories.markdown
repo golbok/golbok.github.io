@@ -8,6 +8,6 @@ permalink: /categories/
 {% assign sorted_posts = category[1] | reversed %}
 <h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</h2>
   {% for post in sorted_posts %}
- 	<small>{{ post.date | date: "%Y%m%d" }}&mdash;</small><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a><br>
+ 	<small>{{ post.date | date: "%Y%m%d"}}</small><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}"> {{ post.title }}</a><br>
   {% endfor %}
 {% endfor %}
