@@ -3,16 +3,11 @@ layout: page
 title: Categories
 permalink: /categories/
 ---
-
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h2 class="post-list-heading">{{ category_name }}</h2>
-    <!--<a name="{{ category_name | slugize }}"></a>-->
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a></span>
-    </article>
-    {% endfor %}
-  </div>
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
+{% assign sorted_posts = category[1] | reversed %}
+<h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</h2>
+  {% for post in sorted_posts %}
+ 	<a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a><br>
+  {% endfor %}
 {% endfor %}
