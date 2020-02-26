@@ -1,0 +1,1 @@
+I currently work as a writer and communicator, with a keen interest in social science, philosophy, art, archaeology and history. I'm involved extensively with astronomy communication with the public, enjoying the challenge of conveying complex ideas in an easy-to-understand manner. 
