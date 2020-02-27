@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "vim Cheat Seat dan Kite Plugin"
+title: "vim Cheat Sheet dan Kite Plugin"
 date: 2018-09-23 15:22:15 +0000
 categories: Technology
 comments: false
