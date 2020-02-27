@@ -12,7 +12,7 @@ diambil dari: [rencanamu.id](https://rencanamu.id/post/dunia-kuliah/jurusan-dan-
 Kenapa dianjurkan untuk sering-sering membaca Jurnal ilmiah? karena biasanya riset yang diterbitkan dari jurnal tersebut lebih udpate daripada *textbook* yang ada (biasanya).
 
 ![Jurnal Ilmiah](http://www.youthmanual.com/assets/file_uploaded/editor/1489559707-evaluation.jpg)
-<center class="caption"><small> Jurnal [youthmanual.com]()</small></center>
+<center class="caption"><small> Jurnal [youthmanual.com]</small></center>
 
 ## Cara memahaminya:
 
