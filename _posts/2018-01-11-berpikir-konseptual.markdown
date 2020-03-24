@@ -3,7 +3,7 @@ layout: post
 title: "Berfikir Konseptual"
 date: 2018-01-11 09:22:15 +0000
 categories: Notes
-comments: false
+comments: true
 ---
 &mdash; [www.reference.com](https://www.reference.com/world-view/conceptual-skills-56999ad9c0917f13#)
 

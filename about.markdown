@@ -5,6 +5,10 @@ permalink: /about/
 ---
 ### Imam
 
-ex-Mahasiswa Sistem Informasi [Universitas Islam Negeri Sulthan Syarif Kasim, Riau](). Mempunyai minat yang tinggi di bidang IT. Antusias terhadap hal-hal berkaitan dengan "Bagaimana sesuatu itu bisa bekerja", "*Software*", "*Minimal things*" dan Mempelajari hal-hal baru.
+adalah ex-Mahasiswa Sistem Informasi [Universitas Islam Negeri Sulthan Syarif Kasim-Riau](), seorang pecinta buku amatir dan murid yang tak kunjung **pandai**, antusias pada:
+- *ITs stuff*
+- Hal-hal yang berkaitan dengan "Bagaimana sesuatu itu bisa bekerja"
+- "*Minimal things*"
+- Mempelajari hal-hal baru"
 
-E-mail		: [i.mail@tuta.io](mailto:i.mail@tuta.io)
+Kiritk & Saran melalui e-mail		: [i.mail@tuta.io](mailto:i.mail@tuta.io)

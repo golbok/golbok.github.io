@@ -3,7 +3,7 @@ layout: post
 title: "vim Cheat Sheet dan Kite Plugin"
 date: 2018-09-23 15:22:15 +0000
 categories: Technology
-comments: false
+comments: true
 ---
 ### Vim
 Kenapa masih menggunakan vim text editor? untuk efisiensi dan kenyamanan vim cocok untuk digunakan, terutama ketika berinteraksi dengan linux/unix os, biasanya pengguna lebih banyak berinteraksi dengan **Terminal** (Linux/Unix) atau **command promt** (Windows).
