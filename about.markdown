@@ -13,6 +13,5 @@ adalah ex-Mahasiswa Sistem Informasi [Universitas Islam Negeri Sulthan Syarif Ka
 
 email		: [i.mail [@] tuta.io](mailto:i.mail@tuta.io)
 
-### Goodreads
-
+**[Goodreads](https://www.goodreads.com/imams)** &mdash;currently reading:
 {% include gr.html %}
