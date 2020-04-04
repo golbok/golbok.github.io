@@ -42,11 +42,19 @@ ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
+ul.gr{
+  list-style: none;
+}
 
 hr {
   margin: $spacing-unit 0;
 }
 
+// goodread style img
+.img-gr{
+  float: left; 
+  padding-right: 20px
+}
 /**
  * `main` element
  */
@@ -59,12 +67,19 @@ main {
 /**
  * Images
  */
-img {
+img.post-content {
   max-width: 100%;
   vertical-align: middle;
 }
 
-
+li.gr{
+  list-style: none;
+  clear: both; // biar rata kiri gambarnya
+  img{
+    float: left;
+    padding-right:10px;
+  }
+}
 
 /**
  * Figures
@@ -133,7 +148,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  font-family: sans-serif;
+  // font-family: sans-serif;
   color: $brand-color;
   border-left: 4px solid $brand-color-light;
   padding-left: $spacing-unit / 2;

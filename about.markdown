@@ -12,3 +12,7 @@ adalah ex-Mahasiswa Sistem Informasi [Universitas Islam Negeri Sulthan Syarif Ka
 - Mempelajari hal-hal baru"
 
 Kritik & Saran melalui e-mail		: [i.mail@tuta.io](mailto:i.mail@tuta.io)
+
+### Goodreads
+
+{% include gr.html %}
