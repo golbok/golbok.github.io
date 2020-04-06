@@ -21,7 +21,7 @@ Dengan tegasnya sang guru pernah berkata:
 
 Sebelum keigininan diri kita akan menjadi sesuatu, kita dituntut untuk paham dulu pengertian, konsep dan segalam macamnya.
 
-Dalam mempelajari segala sesuatu, pelajarilah hal-hal yang tidak anda sukai, karena mempelajari hal-hal yang anda sukai pasti anda sudah mengerti (sedikit banyaknya) dengan mudah.
+Dalam mempelajari segala sesuatu, cobalah mempelajari hal-hal yang juga tidak anda sukai, karena mempelajari hal-hal yang anda sukai pasti anda sudah mengerti (sedikit banyaknya) dengan mudah.
 
 
 # Analisalah apa yang sebenarnya kamu butuhkan!
