@@ -19,7 +19,9 @@ Akal merupakan pembeda manusia dengan hewan, diberinya akal agar manusia dapat b
 Dengan tegasnya sang guru pernah berkata:
 > kamu tak akan pernah menjadi "**Apa**" Jika kamu tidak tau apa itu "**Apa**!"
 
-Dalam mempelajari segala hal, pelajarilah hal-hal yang tidak anda sukai, karena mempelajari hal-hal yang anda sukai pasti anda sudah mengerti (sedikit banyaknya) dengan mudah.
+Sebelum keigininan diri kita akan menjadi sesuatu, kita dituntut untuk paham dulu pengertian, konsep dan segalam macamnya.
+
+Dalam mempelajari segala sesuatu, pelajarilah hal-hal yang tidak anda sukai, karena mempelajari hal-hal yang anda sukai pasti anda sudah mengerti (sedikit banyaknya) dengan mudah.
 
 
 # Analisalah apa yang sebenarnya kamu butuhkan!
