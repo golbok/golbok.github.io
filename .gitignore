@@ -6,6 +6,7 @@ _site
 vendor
 
 # imm
+bak/
 _posts/*.draft
 .editorconfig
 script/

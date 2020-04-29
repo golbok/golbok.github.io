@@ -3,9 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-### Imam
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com
 
-adalah ex-Mahasiswa Sistem Informasi [Universitas Islam Negeri Sulthan Syarif Kasim-Riau](), seorang pecinta buku amatir dan murid yang tak kunjung pandai.
+You can find the source code for the Jekyll new theme at:
+jekyll / minima
 
 email		: [i.mail [@] tuta.io](mailto:i.mail@tuta.io)
 
