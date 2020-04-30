@@ -3,7 +3,7 @@ layout: post
 title: "Damn Vulnerable Web Application (DVWA)"
 date: 2019-01-22 17:22:15 +0000
 categories: Technology
-comments: false
+comments: true
 ---
 ![dvwa logo](/assets/img/20190122/logo.png)
 
@@ -52,7 +52,7 @@ allow_url_include = On
 - Buka aplikasi di browser:
 `127.0.0.1/dvwa/setup.php`
 
-**Create / Reset Database** halamn paling bawah, (jika terjadi kesalahan cek lagi kesesuain koneksi database di file `config.inc.php`)
+**Create / Reset Database** halamn paling bawah, (jika terjadi kesalahan <span class='text-danger text-bold'>cek lagi kesesuaian</span> antara koneksi database di file `config.inc.php`)
 
 jika berhasil akan diarahkan ke halaman login:
 {% highlight ruby %}

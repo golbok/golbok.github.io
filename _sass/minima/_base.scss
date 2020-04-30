@@ -58,6 +58,29 @@ hr {
 .book-title{
   font-weight: 700;
 }
+
+.text-muted {
+	color: $text-muted-color;
+}
+.text-primary{
+	color: $text-primary-color;
+}
+.text-success{
+	color: $text-success-color;
+}
+.text-info{
+	color: $text-info-color;
+}
+.text-warning{
+	color: $text-warning-color;
+}
+.text-danger{
+	color: $text-danger-color;
+}
+.text-bold{
+	font-weight: bold;
+}
+
 /**
  * `main` element
  */
