@@ -10,5 +10,7 @@ You can find the source code for the Jekyll new theme at:
 
 email		: [i.mail [@] tuta.io](mailto:i.mail@tuta.io)
 
+[Public key]({{ site.url }}/public_key.key)
+
 &mdash; **[Goodreads](https://www.goodreads.com/imams)**:
 {% include gr.html %}
