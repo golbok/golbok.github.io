@@ -13,6 +13,6 @@ You can find the source code for the Jekyll new theme at:
 
 Email	: | [i.mail @ tuta.io](mailto:i.mail@tuta.io) | <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a> |
 
-&mdash; **[Goodreads](https://www.goodreads.com/imams)**:
+**Goodreads** / [link](https://www.goodreads.com/imams):
 <hr class="new1">
 {% include gr.html %}
