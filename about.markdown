@@ -8,9 +8,11 @@ This is the base Jekyll theme. You can find out more info about customizing your
 You can find the source code for the Jekyll new theme at:
 [jekyll](https://jekyllrb.com)/ minima
 
-&mdash; **Contact**
+**Contact**
+<hr class="new1">
 
-Email		: [i.mail [@] tuta.io](mailto:i.mail@tuta.io) | <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a>
+Email	: | [i.mail @ tuta.io](mailto:i.mail@tuta.io) | <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a> |
 
 &mdash; **[Goodreads](https://www.goodreads.com/imams)**:
+<hr class="new1">
 {% include gr.html %}

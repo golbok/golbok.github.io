@@ -21,7 +21,7 @@ comments: false
 
 - Agility (kelincahan/kemampuan anda mantul), didalam tren: yang penting itu bukan 'jatuh'nya TAPI 'mantul'nya
 
-- Uang di Bank <span class="text-warning text-bold">*(in May 2020)*</span> 5500 T dana pihak ke-3 (uang nasabah), saat ini Loan to Deoposit Ratio (LDR) 90%
+- Uang di Bank <span class="text-info text-bold">(in May 2020)</span> 5500 T dana pihak ke-3 (uang nasabah), saat ini Loan to Deoposit Ratio (LDR) 90%
 
 Salah satu fungsi Bank: menerima dana dari Maysarakat dan menyalurkan kembali kepada Masyarakat. Saat ini Uang yang keluar 95% alias hanya 5% uang yang ada di Bank. Pertanyaannya, Apa yang terjadi jika 10% deposan menariknya uang di Bank untuk membeli Emas? maka Bank bisa Collapse, baik itu Bank BUMN/Komersial biasa.
 	
