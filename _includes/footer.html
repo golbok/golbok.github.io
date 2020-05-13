@@ -15,11 +15,11 @@
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">&copy; {{ site.author.name | escape }}</li>
+            <li class="p-name"><span class="fa fa-copyright"></span> {{ site.author.name | escape }}</li>
 	    <!--<li> <small><a href="https://github.com/jekyll/minima" target="_blank">Minima</a></small></li>-->
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email | escape }}">Send me Mail</a> | <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a></li>
+            <li><span class="fa fa-envelope-o"></span> <a class="u-email" href="mailto:{{ site.author.email | escape }}">Send me Mail</a> | <span class="fa fa-key"></span> <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
