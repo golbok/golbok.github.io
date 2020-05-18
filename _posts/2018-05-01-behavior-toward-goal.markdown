@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Behaviors toward Goals"
+title: "Behavior toward Goal"
 date: 2018-05-01 03:22:15 +0000
 categories: Notes
 comments: false
