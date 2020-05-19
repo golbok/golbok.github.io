@@ -6,12 +6,12 @@ categories: Technology
 comments: false
 ---
 
-### Install Gnuppg
+**Install Gnuppg:**
 
 ``` bash
 apt-get install gnupg
 ```
-### List Keys
+**List Keys:**
 
 Melihat key yang ada:	
 
@@ -20,7 +20,7 @@ gpg --list-secret-keys
 gpg --list-keys
 ```
 
-### Generate Keys
+**Generate Keys:**
 
 Membuat pasangan kunci, menggunakan:
 ``` bash
@@ -31,7 +31,7 @@ OR
 gpg --gen-key
 ```
 
-### Export/Import Keys
+**Export/Import Keys:**
 
 Export key yang sudah dibuat:
 
@@ -42,11 +42,11 @@ gpg --export-secret-keys [nama-user] > user-private-key.key
 gpg --import user-private-key.key
 ```
 
-### Encrypt & Decrypt
+**Encrypt & Decrypt:**
 
 <i class="fa fa-info-circle"></i> `<description>` bisa berupa nama/alamat email atau bagian dari id kunci.
 
-1.*Encrypt:*
+1. *Encrypt:*
 ```bash
 gpg -e -r "[nama-user]" users.csv
 gpg --always-trust -e -r "[nama-user]" users.csv
@@ -62,15 +62,13 @@ gpg -e -a -r <description> file
 -r = --recipient USER-ID
 ```
 see: `gpg --help`
-
 <span class="text-warning text-bold"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</span>
-
 e.g:
 ```bash
 gpg -e -a -r 0xF83NSD file
 ```
 
-2.*Decrypt:*
+2. *Decrypt:*
 ```bash
 gpg -d users.csv.gpg
 gpg --batch --passphrase demo users.csv.gpg
@@ -80,7 +78,7 @@ OR
 gpg -d -o newdecryptfile nama-file-yang-diencrypt.asc/gpg (formatnya asc atau gpg)
 ```
 
-### Delete Keys:
+**Delete Keys:**
 
 hapus kunci yang tidak digunakan lagi (misal: expired)
 
@@ -93,7 +91,7 @@ kemudian hapus *public key*
 gpg --delete-key <description>
 ```
 
-### Sign a Public Key:
+**Sign a Public Key:**
 
 Anda harus mencetak Key-ID dan sidik jari anda dengan:
 ```bash 
