@@ -11,7 +11,7 @@ You can find the source code for the Jekyll new theme at:
 **Contact**
 <hr class="new1">
 
-Email	: |<span class="fa fa-envelope-o"></span> [i.mail @ tuta.io](mailto:i.mail@tuta.io) | <span class="fa fa-key"></span> <a href="{{ site.url }}/public_key.key" target="_blank">Pub. Key</a> |
+Email	: |<span class="fa fa-envelope-o"></span> [i.mail @ tuta.io](mailto:i.mail@tuta.io) | <span class="fa fa-key"></span> <a href="{{ site.url }}/imam_public_key.key" target="_blank">Pub. Key</a> |
 
 **Goodreads** / [link](https://www.goodreads.com/imams):
 <hr class="new1">

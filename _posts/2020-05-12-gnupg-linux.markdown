@@ -63,7 +63,8 @@ gpg -e -a -r <description> file
 ```
 see: `gpg --help`
 <span class="text-warning text-bold"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</span>
-e.g:
+  
+  e.g:
 ```bash
 gpg -e -a -r 0xF83NSD file
 ```
