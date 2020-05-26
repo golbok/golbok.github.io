@@ -5,10 +5,13 @@ date: 2020-05-12 11:22:15 +0000
 categories: Technology
 comments: false
 ---
+### GnuPG
+
+<i class="fa fa-info-circle"></i> `<description>` bisa berupa nama/alamat email atau bagian dari id kunci.
 
 **Install Gnuppg:**
 
-``` bash
+```bash
 apt-get install gnupg
 ```
 **List Keys:**
@@ -23,7 +26,7 @@ gpg --list-keys
 **Generate Keys:**
 
 Membuat pasangan kunci, menggunakan:
-``` bash
+```bash
 gpg --full-generate-key
 ```
 OR
@@ -44,9 +47,10 @@ gpg --import user-private-key.key
 
 **Encrypt & Decrypt:**
 
-<i class="fa fa-info-circle"></i> `<description>` bisa berupa nama/alamat email atau bagian dari id kunci.
-
 1. *Encrypt:*
+
+<i class="fa fa-info-circle"></i> Ingat, -e != --export
+
 ```bash
 gpg -e -r <description> users.csv
 gpg --always-trust -e -r <description> users.csv
@@ -109,3 +113,37 @@ gpg --edit-key <description>
 ...
 gpg> sign
 ```
+To sign a document with PGP, run this in the command-line:
+
+```bash
+gpg --output document.sig --sign document.pdf
+```
+
+To verify a document that has been signed with PGP, run this in the command line:
+
+```bash
+gpg --output document.pdf --decrypt document.sig
+```
+#### Examples
+
+[gnupg.org](https://www.gnupg.org/documentation/manuals/gnupg/GPG-Examples.html)
+
+sign and encrypt for user Bob: `gpg -se -r Bob file`
+
+make a cleartext signature: `gpg –clear-sign file`
+
+make a detached signature: `gpg -sb file`
+
+make a detached signature with the key 0x12345678: `gpg -u 0x12345678 -sb file`
+
+show keys: `gpg –list-keys user_ID`
+
+show fingerprint: `gpg –fingerprint user_ID`
+
+Verify the signature of the file but do not output the data unless requested: `gpg –verify pgpfile` 
+
+The second form is used for detached signatures, 
+where `sigfile` is the detached signature (either ASCII armored or binary) and datafile are the signed data; if this is not given, 
+the name of the file holding the signed data is constructed by cutting off the extension (".asc" or ".sig") 
+of sigfile or by asking the user for the filename. If the option `--output` is also used the signed data is written to 
+the file specified by that option; use - to write the signed data to stdout: `gpg –verify sigfile [datafile]`
