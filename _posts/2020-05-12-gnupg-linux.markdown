@@ -36,9 +36,9 @@ gpg --gen-key
 Export key yang sudah dibuat:
 
 ```bash
-gpg --export -a [nama-user] > user_public.key
+gpg --export -a <description> > user_public.key
 gpg --import user_public.key
-gpg --export-secret-keys [nama-user] > user-private-key.key
+gpg --export-secret-keys <description> > user-private-key.key
 gpg --import user-private-key.key
 ```
 
@@ -48,8 +48,8 @@ gpg --import user-private-key.key
 
 1. *Encrypt:*
 ```bash
-gpg -e -r "[nama-user]" users.csv
-gpg --always-trust -e -r "[nama-user]" users.csv
+gpg -e -r <description> users.csv
+gpg --always-trust -e -r <description> users.csv
 ```
 OR
 ```bash
@@ -57,13 +57,13 @@ gpg -e -a -r <description> file
 ```
 *Option:*
 ```bash
+-s = --sign
 -e = --encrypt
 -a = --armor (keluaran ascii bukan biner)
 -r = --recipient USER-ID
 ```
-see: `gpg --help`
-<span class="text-warning text-bold"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</span>
-  
+see: `gpg --help`<br>
+<span class="text-warning text-bold"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</span><br>
   e.g:
 ```bash
 gpg -e -a -r 0xF83NSD file
