@@ -36,11 +36,15 @@ gpg --gen-key
 
 **Export/Import Keys:**
 
-Export key yang sudah dibuat:
+Export/Import key yang sudah dibuat ke dalam mesin:
 
+1. Pub. Keys
 ```bash
 gpg --export -a <description> > user_public.key
 gpg --import user_public.key
+```
+2. Sec. Keys
+```bash
 gpg --export-secret-keys <description> > user-private-key.key
 gpg --import user-private-key.key
 ```
@@ -123,6 +127,29 @@ To verify a document that has been signed with PGP, run this in the command line
 
 ```bash
 gpg --output document.pdf --decrypt document.sig
+```
+**Submit Public Key anda ke server:**
+
+[phar.io](https://phar.io/howto/uploading-public-keys.html)
+
+```bash
+gpg --keyid-format LONG --list-keys john@example.com
+pub   rsa4096/ABCDEF0123456789 2018-01-01 [SCEA] [expires: 2021-01-01]
+      ABCDEF0123456789ABCDEF0123456789
+uid              [ ultimate ] John Doe
+```
+format diatas menampilkan key-ID 16-byte setelah tipe-kunci dan jumlah-kunci: 
+
+```bash
+pub rsa4096/ABCDEF0123456789 2018-01-01 [SCEA] [expires: 2021-01-01]
+```
+
+berarti, key-ID: `ABCDEF0123456789`
+
+gunakan key-ID tsb untuk mengirim pub-key ke **keyserver**, biasanya seperti keyserver MIT:
+
+```bash
+gpg --keyserver pgp.mit.edu --send-keys ABCDEF0123456789
 ```
 #### Examples
 
