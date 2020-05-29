@@ -117,13 +117,13 @@ gpg --edit-key <description>
 ...
 gpg> sign
 ```
-To sign a document with PGP, run this in the command-line:
+
+Untuk tandatangan dokumen dg gpg:
 
 ```bash
 gpg --output document.sig --sign document.pdf
 ```
-
-To verify a document that has been signed with PGP, run this in the command line:
+Verifikasi keaslian dokumen yang telah ditandatangai dengan gpg:
 
 ```bash
 gpg --output document.pdf --decrypt document.sig
