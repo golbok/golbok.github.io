@@ -11,7 +11,7 @@ permalink: /categories/
 <em><strong id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}:</strong></em>
 <br>
   {% for post in sorted_posts %}
- 	&emsp;<small>{{ post.date | date: "%Y%m%d"}}</small>/<a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a><br>
+ 	<small class="pad-left">{{ post.date | date: "%Y%m%d"}}</small>/<a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a><br>
   {% endfor %}
 {% endfor %}
 </div>

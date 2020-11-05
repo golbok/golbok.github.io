@@ -24,12 +24,12 @@ layout: default
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
     <li>
-        <span class="post-meta"><em class="text-muted">{{ post.date | date: date_format }}</em></span>
-        <br>
+      <span class="post-meta"><em class="text-muted">{{ post.date | date: date_format }}</em></span>
+      <br>
       <h3> <strong>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
         </strong>
       </h3>
       {%- if site.show_excerpts -%}

@@ -97,6 +97,29 @@ hr.new1{
 }
 
 /**
+imm
+**/
+.pad-left{
+  margin: 0;
+  padding-left: 15px;
+}
+.post-list{
+  // background-color: green;
+  margin-top: -17px;
+}
+.post-list>li{
+  margin-top: -1.5rem;
+  padding: 7px 7px 1px;
+  // background-color: pink;
+}
+.post-list>li:nth-child(odd){
+  background-color: #F6F6F6;
+}
+.content-post{
+  margin-top: -3em;
+}
+
+/**
  * `main` element
  */
 main {
