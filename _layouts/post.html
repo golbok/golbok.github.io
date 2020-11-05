@@ -2,7 +2,6 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline"><a href="{{ page.url  }}" itemprop="blog-title">{{ page.title | escape }}</a></h1>
     <p class="post-meta">
@@ -11,7 +10,6 @@ layout: default
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {{ page.date | date: date_format }}
       </em>
-      </time>
       <hr class="new1">
       {%- if page.modified_date -%}
       ~
