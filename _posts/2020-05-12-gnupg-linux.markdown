@@ -16,7 +16,7 @@ apt-get install gnupg
 ```
 **List Keys:**
 
-Melihat key yang ada:	
+Melihat key yang ada:
 
 ```bash
 gpg --list-secret-keys
@@ -71,7 +71,8 @@ gpg -e -a -r <description> file
 -r = --recipient USER-ID
 ```
 see: `gpg --help`<br>
-<span class="text-warning text-bold"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</span><br>
+
+<p class="text-danger"><i class="fa fa-info-circle"></i> Deskripsi Key-ID anda dengan menambahkan 0x didepan id, jika menggunakan uid</p>
   e.g:
 ```bash
 gpg -e -a -r 0xF83NSD file
@@ -103,12 +104,12 @@ gpg --delete-key <description>
 **Sign a Public Key:**
 
 Anda harus mencetak Key-ID dan sidik jari anda dengan:
-```bash 
-gpg -v --fingerprint <description> 
+```bash
+gpg -v --fingerprint <description>
 ```
 dan tandatangani tulisan ini tanda tangan anda. Ini bisa berguna kapanpun anda harus membuktikan kepada seseorang bahwa ini adalah: <span class="text-success">KUNCI PUBLIC ANDA.</span>
 
-Untuk menandatangani kunci public, anda harus memiliki kunci di ring kunci anda. 
+Untuk menandatangani kunci public, anda harus memiliki kunci di ring kunci anda.
 
 Cara memasukkan kunci ke dalam ring kunci:
 ```bash
@@ -138,7 +139,7 @@ pub   rsa4096/ABCDEF0123456789 2018-01-01 [SCEA] [expires: 2021-01-01]
       ABCDEF0123456789ABCDEF0123456789
 uid              [ ultimate ] John Doe
 ```
-format diatas menampilkan key-ID 16-byte setelah tipe-kunci dan jumlah-kunci: 
+format diatas menampilkan key-ID 16-byte setelah tipe-kunci dan jumlah-kunci:
 
 ```bash
 pub rsa4096/ABCDEF0123456789 2018-01-01 [SCEA] [expires: 2021-01-01]
@@ -167,10 +168,10 @@ show keys: `gpg –list-keys user_ID`
 
 show fingerprint: `gpg –fingerprint user_ID`
 
-Verify the signature of the file but do not output the data unless requested: `gpg –verify pgpfile` 
+Verify the signature of the file but do not output the data unless requested: `gpg –verify pgpfile`
 
-The second form is used for detached signatures, 
-where `sigfile` is the detached signature (either ASCII armored or binary) and datafile are the signed data; if this is not given, 
-the name of the file holding the signed data is constructed by cutting off the extension (".asc" or ".sig") 
-of sigfile or by asking the user for the filename. If the option `--output` is also used the signed data is written to 
+The second form is used for detached signatures,
+where `sigfile` is the detached signature (either ASCII armored or binary) and datafile are the signed data; if this is not given,
+the name of the file holding the signed data is constructed by cutting off the extension (".asc" or ".sig")
+of sigfile or by asking the user for the filename. If the option `--output` is also used the signed data is written to
 the file specified by that option; use - to write the signed data to stdout: `gpg –verify sigfile [datafile]`

@@ -1,153 +1,198 @@
 /**
  * Reset some basic elements
  */
-
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+ul {
   margin: 0;
   padding: 0;
-
 }
-
-
-
 /**
  * Basic styling
  */
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
 }
-
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+
+%vertical-rhythm,
+blockquote,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+ul {
   margin-bottom: $spacing-unit / 2;
 }
-ul.gr{
+
+ul.gr {
   list-style: none;
 }
 
 hr {
   margin: $spacing-unit 0;
 }
-hr.new1{
-	//border-top: 1px dashed #777790;
-	/*
+
+hr.new1 {
+  //border-top: 1px dashed #777790;
+  /*
 	border: 0;
 	height: 1px;
 	background: #777790;
 	background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	margin-top: -5px;*/
-
-	border: 0;
-	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	margin-top: -5px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: -5px;
 }
-
 // goodread style img
-.img-gr{
+
+.img-gr {
   float: left;
-  padding-right: 20px
+  padding-right: 20px;
 }
-.book-title{
+
+.book-title {
   font-weight: 700;
 }
 
 .text-muted {
-	color: $text-muted-color;
-}
-.text-primary{
-	color: $text-primary-color;
-}
-.text-success{
-	color: $text-success-color;
-}
-.text-info{
-	color: $text-info-color;
-}
-.text-warning{
-	color: $text-warning-color;
-}
-.text-danger{
-	color: $text-danger-color;
-}
-.text-bold{
-	font-weight: bold;
+  color: $text-muted-color;
 }
 
+.text-primary {
+  color: $text-primary-color;
+}
+
+.text-success {
+  color: $text-success-color;
+}
+
+.text-info {
+  color: $text-info-color;
+}
+
+.text-warning {
+  color: $text-warning-color;
+}
+
+.text-danger {
+  color: $text-danger-color;
+}
+
+.text-bold {
+  font-weight: bold;
+}
 /**
 imm
 **/
-.pad-left{
+
+.pad-left {
   margin: 0;
   padding-left: 15px;
 }
-.post-list{
+
+.post-list {
   // background-color: green;
   margin-top: -17px;
 }
-.post-list>li{
+
+.post-list > li {
   margin-top: -1.5rem;
   padding: 7px 7px 1px;
   // background-color: pink;
 }
-.post-list>li:nth-child(odd){
+
+.post-list > li:nth-child(odd) {
   background-color: #F6F6F6;
 }
-.content-post{
+
+.content-post {
   margin-top: -1.6em;
 }
 
+#scrollToTopBtn {
+  background-color: #39A7EA;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+}
 /**
  * `main` element
  */
+
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
+  /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
-
 /**
  * Images
  */
+
 img.post-content {
   max-width: 100%;
   vertical-align: middle;
 }
 
-li.gr{
+li.gr {
   list-style: none;
   clear: both; // biar rata kiri gambarnya
-  img{
+
+  img {
     float: left;
-    padding-right:10px;
+    padding-right: 10px;
   }
 }
-
 /**
  * Figures
  */
+
 figure > img {
   display: block;
 }
@@ -155,37 +200,38 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
-
 /**
  * Lists
  */
-ul, ol {
+
+ol,
+ul {
   margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
+  > ol,
+  > ul {
     margin-bottom: 0;
   }
 }
-
-
-
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: $base-font-weight;
   font-family: $heading-base-font-family;
 }
-
-
 /**
  * Links
  */
+
 a {
   color: $link-base-color;
   text-decoration: none;
@@ -207,11 +253,10 @@ a {
     }
   }
 }
-
-
 /**
  * Blockquotes
  */
+
 blockquote {
   // font-family: sans-serif;
   color: $brand-color;
@@ -226,14 +271,12 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
-
 /**
  * Code formatting
  */
-pre,
-code {
+
+code,
+pre {
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $brand-color-light;
@@ -265,12 +308,10 @@ pre {
     background: $code-background-color;
   }
 }
-
-
-
 /**
  * Wrapper
  */
+
 .wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
@@ -278,31 +319,24 @@ pre {
   padding-right: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
   @extend %clearfix;
-
   @media screen and (min-width: $on-large) {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
 }
-
-
-
 /**
  * Clearfix
  */
+
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
-
-
 /**
  * Icons
  */
-
 .orange {
   color: #f66a0a;
 }
@@ -319,11 +353,10 @@ pre {
   padding: 5px 3px 2px 5px;
   vertical-align: text-bottom;
 }
-
-
 /**
  * Tables
  */
+
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -331,26 +364,30 @@ table {
   color: $table-text-color;
   border-collapse: collapse;
   border: 1px solid $table-border-color;
+
   tr {
     &:nth-child(even) {
       background-color: $table-zebra-color;
     }
   }
-  th, td {
+
+  td,
+  th {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
+
   th {
     background-color: $table-header-bg-color;
     border: 1px solid $table-header-border;
   }
+
   td {
     border: 1px solid $table-border-color;
   }
-
   @include media-query($on-laptop) {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
