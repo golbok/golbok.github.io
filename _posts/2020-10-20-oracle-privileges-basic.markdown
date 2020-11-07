@@ -7,4 +7,4 @@ comments: false
 ---
 Database yang implementasi yang baik pasti memiliki keamanan ..
 
-(to be continued..)
+(draft catatan sedang dicari..)
