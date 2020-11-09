@@ -13,7 +13,7 @@ permalink: /categories/
 </em>
 <br>
   {% for post in sorted_posts %}
- 	<small class="pad-left">&spades; {{ post.date | date: "%d/%m/%y"}}</small> <a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a><br>
+ 	<small class="pad-left">{{ post.date | date: "%d/%m/%y"}}</small> <a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a><br>
   {% endfor %}
 {% endfor %}
 </div>
