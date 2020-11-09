@@ -12,7 +12,6 @@ You can find the source code for the Jekyll new theme at:
 **Contact**
 
 <hr class="new1">
-***LinkedIn:***
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="imam"><a class="LI-simple-link" href='https://id.linkedin.com/in/imam/en-us?trk=profile-badge'>Imam S.</a></div>
 <br>
 
