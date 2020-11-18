@@ -122,6 +122,17 @@ hr.new1 {
 /**
 imm
 **/
+.grid{
+  position: relative;
+  display: inline;
+}
+.img-about{
+  margin-top: -1.5rem;
+  display: inline;
+  width: 30%;
+  height: 30%;
+  // background-color:yellow;
+}
 
 .pad-left {
   margin: 0;

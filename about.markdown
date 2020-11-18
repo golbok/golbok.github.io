@@ -9,11 +9,11 @@ This is the base Jekyll theme. You can find out more info about customizing your
 You can find the source code for the Jekyll new theme at:
 [jekyll](https://jekyllrb.com)/ minima
 
-**Contact**
-
 <hr class="new1">
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="imam"><a class="LI-simple-link" href='https://id.linkedin.com/in/imam/en-us?trk=profile-badge'>Imam S.</a></div>
-<br>
+<div class="grid">
+	<img class="img-about" src="https://education.oracle.com/file/general/new-cert-badge.png" alt="oracle academy">
+	<!-- tambah lagi badge img -->
+</div>
 
 Email	: |<span class="fa fa-envelope-o"></span> [i.mail @ tuta.io](mailto:i.mail@tuta.io) |
 
