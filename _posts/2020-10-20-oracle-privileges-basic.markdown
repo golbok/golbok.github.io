@@ -6,5 +6,7 @@ categories: Oracle
 comments: false
 ---
 Database yang terimplementasi dengan baik pasti memiliki keamanan yang baik pula, salah satunya adalah pembatasan hak akses kepada setiap user.
+### System Security
+
 
 (draft catatan sedang dicari..)
