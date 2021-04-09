@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p>
-	Hello :)
+	Hi Helloy :)
 </p>
 
 <hr class="new1">
